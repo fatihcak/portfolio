@@ -37,34 +37,36 @@ export default function Navbar() {
   return (
     <header className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <nav className={styles.inner}>
-        <a href="#top" className={styles.logo}>
-          FC<span className={styles.logoDot}>.</span>
-        </a>
+        <div className={styles.leftGroup}>
+          <a href="#top" className={styles.logo}>
+            FC<span className={styles.logoDot}>.</span>
+          </a>
 
-        <ul className={`${styles.links} ${menuOpen ? styles.open : ""}`}>
-          {navLinks.map((link) => (
-            <li key={link.href}>
+          <ul className={`${styles.links} ${menuOpen ? styles.open : ""}`}>
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className={styles.link}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+            <li>
               <a
-                href={link.href}
-                className={styles.link}
+                href="/Fatih_Cakir_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.resumeBtn}
                 onClick={() => setMenuOpen(false)}
               >
-                {link.label}
+                {t("resume")}
               </a>
             </li>
-          ))}
-          <li>
-            <a
-              href="/Fatih_Cakir_CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.resumeBtn}
-              onClick={() => setMenuOpen(false)}
-            >
-              {t("resume")}
-            </a>
-          </li>
-        </ul>
+          </ul>
+        </div>
 
         <div className={styles.actions}>
           <button
@@ -88,4 +90,5 @@ export default function Navbar() {
       </nav>
     </header>
   );
+
 }

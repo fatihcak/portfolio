@@ -26,6 +26,12 @@
   gap: 2rem;
 }
 
+.leftGroup {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .logo {
   font-size: 1.2rem;
   font-weight: 700;
@@ -61,8 +67,8 @@
 }
 
 .link:hover {
-  color: var(--text-primary);
-  background: var(--bg-secondary);
+  color: var(--accent-dark);
+  background: var(--accent-glow);
 }
 
 .resumeBtn {
