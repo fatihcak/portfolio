@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "contact": "İletişim",
+    "resume": "CV"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Fatih Çakır",
+    "title": "Backend Mühendisi & Yapay Zeka Geliştirici",
+    "subtitle": "Backend, yapay zeka ve DevOps'un kesişiminde ölçeklenebilir sistemler inşa ediyorum.",
+    "cta_projects": "Projeleri Gör",
+    "cta_contact": "İletişime Geç",
+    "available": "İş fırsatlarına açığım"
+  },
+  "about": {
+    "section_label": "Hakkımda",
+    "heading": "Biraz kendimden",
+    "bio_1": "Ocak 2025'te Doğu Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, Tofaş'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_3": "Backend'den yapay zekaya, oradan DevOps'a uzanan tam spektrumda büyüyebileceğim fırsatlar arıyorum. Birlikte harika şeyler inşa edelim.",
+    "location": "Bursa, Türkiye",
+    "education": "Bilgisayar Mühendisliği Lisans — DAÜ",
+    "status": "İş arıyorum"
+  },
+  "skills": {
+    "section_label": "Yetenekler",
+    "heading": "Kullandığım teknolojiler",
+    "categories": {
+      "backend": "Backend",
+      "ai_ml": "YZ & Makine Öğrenmesi",
+      "frontend": "Frontend",
+      "tools": "Araçlar & DevOps"
+    }
+  },
+  "projects": {
+    "section_label": "Projeler",
+    "heading": "Geliştirdiklerim",
+    "view_code": "Kodu Gör",
+    "view_live": "Canlıya Git",
+    "view_details": "Detaylar",
+    "featured": "Öne Çıkan",
+    "award": "Fakülte Birincisi 🏆",
+    "items": {
+      "market": {
+        "title": "YZ Entegre Market Fiyat Karşılaştırma",
+        "description": "Kıbrıs'taki marketlerin fiyatlarını karşılaştıran platformda yapay zeka ve backend geliştirme takım liderliği yaptım. Web scraping ile gerçek zamanlı fiyat verisi toplandı; RAG destekli yapay zeka asistanı ve akıllı sepet optimizasyonu kullanıcılara en ucuz alışverişi buluyor.",
+        "long_description": "Doğu Akdeniz Üniversitesi fakülte birincisi mezuniyet projesi. Yapay zeka ve backend takım lideri olarak .NET 8 REST API mimarisini tasarladım, Levenshtein Distance ile bulanık ürün eşleşmesi geliştirdim, alışveriş listesi için en ucuz market kombinasyonunu bulan akıllı sepet optimizasyon algoritmasını yazdım ve doğal dil fiyat sorgularına olanak tanıyan RAG tabanlı yapay zeka sohbet hattını entegre ettim. Sistem 8 iş paketinde Agile sprintler ile geliştirildi, Selenium, JMeter ve Postman ile test edildi ve OWASP Top 10 güvenlik standartlarına uygun tasarlandı.",
+        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "YZ"]
+      },
+      "conveyor": {
+        "title": "YOLOv8 Konveyör Taşma Tespiti",
+        "description": "Bursa Çimento'da konveyör bantlarındaki malzeme taşmasını gerçek zamanlı tespit eden bilgisayarlı görü sistemi.",
+        "long_description": "Bursa Çimento stajımda geliştirip sahaya kurduğum bu sistem, kamera görüntüleri üzerinden YOLOv8 ile konveyör bantları anlık izliyor. Taşma veya anormallik tespit edildiğinde otomatik uyarılar tetiklenerek ekipman hasarı ve iş güvenliği riskleri önleniyor. Endüstriyel ölçekte bilgisayarlı görü deneyimimi bu projede edindim.",
+        "tech": ["Python", "YOLOv8", "Bilgisayarlı Görü", "OpenCV"]
+      },
+      "tofas": {
+        "title": "Tofaş Yedek Parça Stok Kontrol",
+        "description": "Türkiye'nin en büyük otomotiv üreticilerinden Tofaş'ta stajım sırasında geliştirdiğim dahili yedek parça stok yönetim sistemi.",
+        "long_description": "Tofaş stajımda üretim hattına ait yedek parçaları yöneten dahili bir web uygulaması geliştirdim. Sistem tam CRUD operasyonları, stok seviyesi takibi, düşük stok uyarıları ve raporlama panelleri içeriyor. .NET Core ve Entity Framework Core ile geliştirildi; SQLite ile otomatik veritabanı migrasyonları uygulandı.",
+        "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
+      },
+      "wala": {
+        "title": "WALA — WhatsApp Benzeri Uygulama",
+        "description": "Güvenlik dersi kapsamında WebSocket kullanılarak geliştirilen güvenli gerçek zamanlı mesajlaşma uygulaması.",
+        "long_description": "Güvenlik mühendisliği dersi projesi olan WALA, güvenli WebSocket iletişim kalıplarını gösteren tam yığın bir mesajlaşma uygulamasıdır. Proje; güvenlik protokolleri, mesaj bütünlüğü, kimlik doğrulama ve merkezi sunucu üzerinden çok istemcili çift yönlü iletişime odaklanır — WhatsApp mimarisine benzer bir yapı.",
+        "tech": ["Python", "WebSocket", "Güvenlik", "İstemci-Sunucu"]
+      }
+    }
+  },
+  "experience": {
+    "section_label": "Deneyim",
+    "heading": "Yolculuğum",
+    "items": {
+      "grad": {
+        "role": "Bilgisayar Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
+        "company": "Doğu Akdeniz Üniversitesi · Fakülte Birincisi 🏆",
+        "period": "Ocak 2025",
+        "description": "Fakültenin en yüksek puanlı mezuniyet projesiyle mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir sistem teslim ettim."
+      },
+      "bursa": {
+        "role": "Yazılım Mühendisliği Stajyeri",
+        "company": "Bursa Çimento",
+        "period": "2024",
+        "description": "YOLOv8 bilgisayarlı görü kullanarak gerçek zamanlı konveyör bandı taşma tespit sistemi geliştirip sahaya kurdum; üretim hattında ekipman hasarı riskini azalttım."
+      },
+      "tofas": {
+        "role": "Yazılım Mühendisliği Stajyeri",
+        "company": "Tofaş",
+        "period": "2024",
+        "description": ".NET Core ve Entity Framework ile dahili yedek parça stok yönetim sistemi geliştirdim; staj süresince ekip tarafından aktif olarak kullanıldı."
+      }
+    }
+  },
+  "contact": {
+    "section_label": "İletişim",
+    "heading": "Birlikte çalışalım",
+    "subtitle": "Yeni fırsatlar için aktif olarak araştırma yapıyorum. Bir sorunuz varsa ya da sadece merhaba demek istiyorsanız gelen kutum her zaman açık.",
+    "email_label": "E-posta gönder",
+    "github_label": "GitHub'ıma bak",
+    "linkedin_label": "LinkedIn'de bağlanalım"
+  },
+  "footer": {
+    "built_with": "Next.js ile geliştirildi & Vercel'de yayınlandı",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

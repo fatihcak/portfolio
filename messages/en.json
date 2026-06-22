@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Fatih Çakır",
+    "title": "Backend Engineer & AI Developer",
+    "subtitle": "Building scalable systems at the intersection of backend, AI & DevOps.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Get in Touch",
+    "available": "Open to opportunities"
+  },
+  "about": {
+    "section_label": "About Me",
+    "heading": "A bit about me",
+    "bio_1": "I'm a Computer Engineering graduate from Eastern Mediterranean University (January 2025). I specialise in backend development with .NET, but my real passion lies in building intelligent systems — where backend engineering meets AI and DevOps.",
+    "bio_2": "I led the AI & Backend development of our faculty's 1st-place graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at Tofaş.",
+    "bio_3": "I'm actively looking for opportunities where I can grow across the full backend-to-AI-to-DevOps spectrum. Let's build something great.",
+    "location": "Bursa, Turkey",
+    "education": "BSc Computer Engineering — EMU",
+    "status": "Available for hire"
+  },
+  "skills": {
+    "section_label": "Skills",
+    "heading": "Tech I work with",
+    "categories": {
+      "backend": "Backend",
+      "ai_ml": "AI & ML",
+      "frontend": "Frontend",
+      "tools": "Tools & DevOps"
+    }
+  },
+  "projects": {
+    "section_label": "Projects",
+    "heading": "Things I've built",
+    "view_code": "View Code",
+    "view_live": "View Live",
+    "view_details": "View Details",
+    "featured": "Featured",
+    "award": "Faculty 1st Place 🏆",
+    "items": {
+      "market": {
+        "title": "AI Integrated Market Price Comparison",
+        "description": "Led the AI & Backend development of a Cyprus grocery price comparison platform — web scraping aggregates real-time prices from multiple supermarkets, while a RAG-powered AI assistant and smart basket optimizer help users find the best deals.",
+        "long_description": "Faculty 1st place graduation project at Eastern Mediterranean University. As team lead for AI & Backend, I architected the .NET 8 REST API, implemented fuzzy product matching using Levenshtein Distance, built the smart basket optimization algorithm to find the cheapest market combination for a given shopping list, and integrated the RAG-based AI chat pipeline for natural language price queries. The system was designed with Agile sprints across 8 work packages, tested with Selenium, JMeter and Postman, and follows OWASP Top 10 security standards.",
+        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "AI"]
+      },
+      "conveyor": {
+        "title": "YOLOv8 Conveyor Overflow Detection",
+        "description": "A real-time computer vision system deployed at Bursa Çimento to detect material overflow on conveyor belts, preventing equipment damage and safety hazards.",
+        "long_description": "Developed during my internship at Bursa Çimento, this system uses YOLOv8 to monitor conveyor belts in real-time via camera feeds. When overflow or anomalies are detected, the system triggers automated alerts to prevent costly equipment damage and safety incidents. This was my first hands-on experience with industrial-scale computer vision deployment.",
+        "tech": ["Python", "YOLOv8", "Computer Vision", "OpenCV"]
+      },
+      "tofas": {
+        "title": "Tofaş Parts Inventory Control",
+        "description": "An internal inventory management system built during my internship at Tofaş, one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
+        "long_description": "During my internship at Tofaş, I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
+        "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
+      },
+      "wala": {
+        "title": "WALA — WhatsApp Like Application",
+        "description": "A secure real-time messaging application built with WebSockets as part of a security engineering course. Features encrypted client-server communication.",
+        "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server — similar to WhatsApp's architecture.",
+        "tech": ["Python", "WebSocket", "Security", "Client-Server"]
+      }
+    }
+  },
+  "experience": {
+    "section_label": "Experience",
+    "heading": "My journey",
+    "items": {
+      "grad": {
+        "role": "Computer Engineering Graduate — Team Lead, AI & Backend",
+        "company": "Eastern Mediterranean University · Faculty 1st Place 🏆",
+        "period": "January 2025",
+        "description": "Graduated with the faculty's top-ranked graduation project: an AI-integrated market price comparison platform. Led a 4-person team as AI & Backend engineer, delivering a full-stack system with RAG architecture, fuzzy search, and smart basket optimization."
+      },
+      "bursa": {
+        "role": "Software Engineering Intern",
+        "company": "Bursa Çimento",
+        "period": "2024",
+        "description": "Developed and deployed a real-time conveyor belt overflow detection system using YOLOv8 computer vision, reducing the risk of equipment damage on the production line."
+      },
+      "tofas": {
+        "role": "Software Engineering Intern",
+        "company": "Tofaş",
+        "period": "2024",
+        "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework, actively used by the team throughout the internship."
+      }
+    }
+  },
+  "contact": {
+    "section_label": "Contact",
+    "heading": "Let's work together",
+    "subtitle": "I'm actively looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open.",
+    "email_label": "Send me an email",
+    "github_label": "Check my GitHub",
+    "linkedin_label": "Connect on LinkedIn"
+  },
+  "footer": {
+    "built_with": "Built with Next.js & deployed on Vercel",
+    "rights": "All rights reserved."
+  }
+}

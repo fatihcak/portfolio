@@ -1,0 +1,201 @@
+.projects {
+  background: var(--bg-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  position: relative;
+}
+
+/* Featured card spans full width */
+.featured {
+  grid-column: 1 / -1;
+  border-color: rgba(249, 115, 22, 0.22);
+  background: linear-gradient(135deg, #fff 0%, rgba(249, 115, 22, 0.03) 100%);
+}
+
+.featured:hover {
+  border-color: rgba(249, 115, 22, 0.45);
+  box-shadow: var(--shadow-card-hover), 0 0 50px rgba(249, 115, 22, 0.08);
+}
+
+.featuredBadge {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-dark);
+  padding: 0.22rem 0.6rem;
+  background: rgba(249, 115, 22, 0.08);
+  border: 1px solid rgba(249, 115, 22, 0.25);
+  border-radius: 100px;
+  font-family: var(--font-display);
+}
+
+.awardBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #92400e;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 100px;
+  padding: 0.28rem 0.75rem;
+  width: fit-content;
+  font-family: var(--font-display);
+}
+
+/* Inner layout for featured card */
+.cardInner {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.featured .cardInner {
+  flex-direction: row;
+}
+
+.cardBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  padding-right: 5rem;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.featured .title {
+  font-size: 1.3rem;
+  padding-right: 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.links {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  transition: all var(--transition);
+}
+
+.iconLink:hover {
+  color: var(--accent-dark);
+  border-color: var(--accent);
+  background: var(--accent-glow);
+}
+
+/* YouTube Embed */
+.videoWrapper {
+  flex-shrink: 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.videoFrame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+
+.videoLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.73rem;
+  color: var(--text-muted);
+  transition: color var(--transition);
+  width: fit-content;
+  font-family: var(--font-display);
+}
+
+.videoLabel:hover {
+  color: var(--accent-dark);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .featured .cardInner {
+    flex-direction: column;
+  }
+
+  .videoWrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured {
+    grid-column: 1;
+  }
+
+  .title {
+    padding-right: 0;
+  }
+
+  .featuredBadge {
+    position: static;
+    width: fit-content;
+    margin-bottom: -0.5rem;
+  }
+}

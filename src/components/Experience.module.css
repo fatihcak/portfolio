@@ -1,0 +1,102 @@
+.experience {
+  background: var(--bg-primary);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 800px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 120px 40px 1fr;
+  gap: 0 1.5rem;
+  align-items: start;
+}
+
+.left {
+  padding-top: 1.75rem;
+  text-align: right;
+}
+
+.period {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  font-family: var(--font-display);
+}
+
+.connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.85rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border);
+  border: 2px solid var(--bg-primary);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+  transition: background var(--transition);
+}
+
+.dotActive {
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.15);
+}
+
+.line {
+  width: 1px;
+  flex: 1;
+  min-height: 2rem;
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.5) 0%, var(--border) 100%);
+  margin: 4px 0;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.company {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+  font-family: var(--font-display);
+}
+
+.desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 600px) {
+  .item {
+    grid-template-columns: 0 40px 1fr;
+  }
+
+  .left {
+    display: none;
+  }
+}
