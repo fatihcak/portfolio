@@ -38,7 +38,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <main>{children}</main>
+          <main style={{ marginLeft: "220px" }}>{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>
