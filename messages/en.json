@@ -19,8 +19,8 @@
   "about": {
     "section_label": "About Me",
     "heading": "A bit about me",
-    "bio_1": "I'm a Computer Engineering graduate from Eastern Mediterranean University (January 2025). I specialise in backend development with .NET, but my real passion lies in building intelligent systems — where backend engineering meets AI and DevOps.",
-    "bio_2": "I led the AI & Backend development of our faculty's 1st-place graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at Tofaş.",
+    "bio_1": "I'm a Computer Engineering graduate from Eastern Mediterranean University (January 2026). I specialise in backend development with .NET, but my real passion lies in building intelligent systems — where backend engineering meets AI and DevOps.",
+    "bio_2": "I led the AI & Backend development of our faculty's 1st-place graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at TOFAŞ.",
     "bio_3": "I'm actively looking for opportunities where I can grow across the full backend-to-AI-to-DevOps spectrum. Let's build something great.",
     "location": "Bursa, Turkey",
     "education": "BSc Computer Engineering — EMU",
@@ -58,9 +58,9 @@
         "tech": ["Python", "YOLOv8", "Computer Vision", "OpenCV"]
       },
       "tofas": {
-        "title": "Tofaş Parts Inventory Control",
-        "description": "An internal inventory management system built during my internship at Tofaş, one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
-        "long_description": "During my internship at Tofaş, I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
+        "title": "TOFAŞ Spare Parts Inventory Control",
+        "description": "An internal inventory management system built during my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
+        "long_description": "During my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
         "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
       },
       "wala": {
@@ -78,7 +78,7 @@
       "grad": {
         "role": "Computer Engineering Graduate — Team Lead, AI & Backend",
         "company": "Eastern Mediterranean University · Faculty 1st Place 🏆",
-        "period": "January 2025",
+        "period": "January 2026",
         "description": "Graduated with the faculty's top-ranked graduation project: an AI-integrated market price comparison platform. Led a 4-person team as AI & Backend engineer, delivering a full-stack system with RAG architecture, fuzzy search, and smart basket optimization."
       },
       "bursa": {
@@ -89,9 +89,9 @@
       },
       "tofas": {
         "role": "Software Engineering Intern",
-        "company": "Tofaş",
+        "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
         "period": "2024",
-        "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework, actively used by the team throughout the internship."
+        "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAŞ, actively used by the team throughout the internship."
       }
     }
   },

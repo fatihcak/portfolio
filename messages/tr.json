@@ -19,8 +19,8 @@
   "about": {
     "section_label": "Hakkımda",
     "heading": "Biraz kendimden",
-    "bio_1": "Ocak 2025'te Doğu Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
-    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, Tofaş'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
     "bio_3": "Backend'den yapay zekaya, oradan DevOps'a uzanan tam spektrumda büyüyebileceğim fırsatlar arıyorum. Birlikte harika şeyler inşa edelim.",
     "location": "Bursa, Türkiye",
     "education": "Bilgisayar Mühendisliği Lisans — DAÜ",
@@ -58,9 +58,9 @@
         "tech": ["Python", "YOLOv8", "Bilgisayarlı Görü", "OpenCV"]
       },
       "tofas": {
-        "title": "Tofaş Yedek Parça Stok Kontrol",
-        "description": "Türkiye'nin en büyük otomotiv üreticilerinden Tofaş'ta stajım sırasında geliştirdiğim dahili yedek parça stok yönetim sistemi.",
-        "long_description": "Tofaş stajımda üretim hattına ait yedek parçaları yöneten dahili bir web uygulaması geliştirdim. Sistem tam CRUD operasyonları, stok seviyesi takibi, düşük stok uyarıları ve raporlama panelleri içeriyor. .NET Core ve Entity Framework Core ile geliştirildi; SQLite ile otomatik veritabanı migrasyonları uygulandı.",
+        "title": "TOFAŞ Yedek Parça Stok Kontrol",
+        "description": "Türkiye'nin en büyük otomotiv üreticilerinden TOFAŞ Türk Otomobil Fabrikası A.Ş.'de stajım sırasında geliştirdiğim dahili yedek parça stok yönetim sistemi.",
+        "long_description": "TOFAŞ Türk Otomobil Fabrikası A.Ş. stajımda üretim hattına ait yedek parçaları yöneten dahili bir web uygulaması geliştirdim. Sistem tam CRUD operasyonları, stok seviyesi takibi, düşük stok uyarıları ve raporlama panelleri içeriyor. .NET Core ve Entity Framework Core ile geliştirildi; SQLite ile otomatik veritabanı migrasyonları uygulandı.",
         "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
       },
       "wala": {
@@ -78,7 +78,7 @@
       "grad": {
         "role": "Bilgisayar Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
         "company": "Doğu Akdeniz Üniversitesi · Fakülte Birincisi 🏆",
-        "period": "Ocak 2025",
+        "period": "Ocak 2026",
         "description": "Fakültenin en yüksek puanlı mezuniyet projesiyle mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir sistem teslim ettim."
       },
       "bursa": {
@@ -89,9 +89,9 @@
       },
       "tofas": {
         "role": "Yazılım Mühendisliği Stajyeri",
-        "company": "Tofaş",
+        "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
         "period": "2024",
-        "description": ".NET Core ve Entity Framework ile dahili yedek parça stok yönetim sistemi geliştirdim; staj süresince ekip tarafından aktif olarak kullanıldı."
+        "description": ".NET Core ve Entity Framework ile TOFAŞ'ta dahili yedek parça stok yönetim sistemi geliştirdim; staj süresince ekip tarafından aktif olarak kullanıldı."
       }
     }
   },
