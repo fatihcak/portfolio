@@ -43,8 +43,7 @@ const projectMeta: Record<
       { src: "/images/market/ui-chatbot.webp",  alt: "AI Market Assistant — RAG-powered chatbot" },
     ],
     diagrams: [
-      { src: "/images/market/use-case.webp",      alt: "Use Case Diagram" },
-      { src: "/images/market/class-diagram.webp", alt: "Class Diagram" },
+      { src: "/images/market/high-level-design.png", alt: "High Level Architecture Diagram" },
     ],
   },
   conveyor: {

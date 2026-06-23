@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import { X, Play, ExternalLink, ZoomIn } from "lucide-react";
 import { GithubIcon } from "./icons";
 import styles from "./ProjectModal.module.css";
@@ -52,6 +53,7 @@ function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: ()
 }
 
 export default function ProjectModal({ data, onClose }: Props) {
+  const t = useTranslations("projects.modal");
   const overlayRef = useRef<HTMLDivElement>(null);
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
 
@@ -100,7 +102,7 @@ export default function ProjectModal({ data, onClose }: Props) {
             {/* YouTube embed */}
             {data.youtube && (
               <div className={styles.section}>
-                <h3 className={styles.sectionTitle}>🎬 Demo</h3>
+                <h3 className={styles.sectionTitle}>{t("demo")}</h3>
                 <div className={styles.videoWrapper}>
                   <iframe
                     src={`https://www.youtube.com/embed/${getYouTubeId(data.youtube)}`}
@@ -116,21 +118,21 @@ export default function ProjectModal({ data, onClose }: Props) {
                   rel="noopener noreferrer"
                   className={styles.ytLink}
                 >
-                  <Play size={13} /> Watch on YouTube
+                  <Play size={13} /> {t("watch_youtube")}
                 </a>
               </div>
             )}
 
             {/* About */}
             <div className={styles.section}>
-              <h3 className={styles.sectionTitle}>📋 About the Project</h3>
+              <h3 className={styles.sectionTitle}>{t("about")}</h3>
               <p className={styles.longDesc}>{data.longDescription}</p>
             </div>
 
             {/* Highlights */}
             {data.highlights && data.highlights.length > 0 && (
               <div className={styles.section}>
-                <h3 className={styles.sectionTitle}>⚡ Key Highlights</h3>
+                <h3 className={styles.sectionTitle}>{t("highlights")}</h3>
                 <ul className={styles.highlights}>
                   {data.highlights.map((h, i) => (
                     <li key={i}>{h}</li>
@@ -142,7 +144,7 @@ export default function ProjectModal({ data, onClose }: Props) {
             {/* Screenshots */}
             {data.screenshots && data.screenshots.length > 0 && (
               <div className={styles.section}>
-                <h3 className={styles.sectionTitle}>🖥️ Screenshots</h3>
+                <h3 className={styles.sectionTitle}>{t("screenshots")}</h3>
                 <div className={styles.gallery}>
                   {data.screenshots.map((s, i) => (
                     <button
@@ -167,7 +169,7 @@ export default function ProjectModal({ data, onClose }: Props) {
             {/* Diagrams */}
             {data.diagrams && data.diagrams.length > 0 && (
               <div className={styles.section}>
-                <h3 className={styles.sectionTitle}>📐 Architecture & Design</h3>
+                <h3 className={styles.sectionTitle}>{t("architecture")}</h3>
                 <div className={styles.gallery}>
                   {data.diagrams.map((d, i) => (
                     <button
@@ -191,7 +193,7 @@ export default function ProjectModal({ data, onClose }: Props) {
 
             {/* Tech stack */}
             <div className={styles.section}>
-              <h3 className={styles.sectionTitle}>🛠️ Tech Stack</h3>
+              <h3 className={styles.sectionTitle}>{t("tech_stack")}</h3>
               <div className={styles.techTags}>
                 {data.tech.map((t) => (
                   <span key={t} className="tech-tag">{t}</span>
@@ -204,12 +206,12 @@ export default function ProjectModal({ data, onClose }: Props) {
               <div className={styles.links}>
                 {data.github && (
                   <a href={data.github} target="_blank" rel="noopener noreferrer" className={styles.linkBtn}>
-                    <GithubIcon size={17} /> GitHub
+                    <GithubIcon size={17} /> {t("github")}
                   </a>
                 )}
                 {data.live && (
                   <a href={data.live} target="_blank" rel="noopener noreferrer" className={styles.linkBtn}>
-                    <ExternalLink size={17} /> Live Demo
+                    <ExternalLink size={17} /> {t("live_demo")}
                   </a>
                 )}
               </div>
