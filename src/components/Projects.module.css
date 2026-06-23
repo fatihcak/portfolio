@@ -137,6 +137,30 @@
   background: var(--accent-glow);
 }
 
+.detailsBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0 0.85rem;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  background: none;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+  font-family: var(--font-body);
+}
+
+.detailsBtn:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+  color: var(--accent-dark);
+}
+
 /* YouTube Embed */
 .videoWrapper {
   flex-shrink: 0;
