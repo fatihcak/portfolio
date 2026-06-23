@@ -19,11 +19,11 @@
   "about": {
     "section_label": "Hakkımda",
     "heading": "Biraz kendimden",
-    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
-    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip, 41'den fazla ülkede tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmalrı ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
     "bio_3": "Backend'den yapay zekaya, oradan DevOps'a uzanan tam spektrumda büyüyebileceğim fırsatlar arıyorum. Birlikte harika şeyler inşa edelim.",
     "location": "Bursa, Türkiye",
-    "education": "Bilgisayar Mühendisliği Lisans — DAÜ",
+    "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu",
     "status": "İş arıyorum"
   },
   "skills": {
@@ -76,10 +76,10 @@
     "heading": "Yolculuğum",
     "items": {
       "grad": {
-        "role": "Bilgisayar Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
-        "company": "Doğu Akdeniz Üniversitesi · Fakülte Birincisi 🏆",
+        "role": "Yazılım Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
+        "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · Fakülte Birincisi 🏆",
         "period": "Ocak 2026",
-        "description": "Fakültenin en yüksek puanlı mezuniyet projesiyle mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir sistem teslim ettim."
+        "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan fakültenin en yüksek puanlı mezuniyet projesiyle mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir sistem teslim ettim. DAÜ, QS Dünya Sıralaması'na göre Orta Doğu ve Orta Asya'nın en iyi üniversiteleri arasında yer almaktadır."
       },
       "bursa": {
         "role": "Yazılım Mühendisliği Stajyeri",
