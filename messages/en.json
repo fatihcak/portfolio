@@ -19,11 +19,11 @@
   "about": {
     "section_label": "About Me",
     "heading": "A bit about me",
-    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University — an ABET-accredited, English-medium program on a full scholarship (January 2026). I specialise in backend development with .NET, but my real passion lies in building intelligent systems — where backend engineering meets AI and DevOps.",
-    "bio_2": "I led the AI & Backend development of our faculty's Best Project Award-winning graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at TOFAŞ.",
+    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University, where I studied on a full scholarship through an ABET-accredited, English-medium program (January 2026). My main focus is backend development with .NET, though I genuinely enjoy working at the point where backend meets AI and DevOps.",
+    "bio_2": "I led the AI and Backend side of our graduation project, which won the faculty's Best Project Award. It was a Cyprus grocery price comparison platform built with RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Before that I did two internships: a real-time YOLOv8 computer vision system at Bursa Çimento, and an inventory management system at TOFAŞ.",
     "bio_3": "I'm eager to step into professional life and bring fresh energy to a team that loves building great things.",
     "location": "Bursa, Turkey",
-    "education": "BSc Software Engineering — EMU · ABET Accredited · Full Scholarship",
+    "education": "BSc Software Engineering, EMU | ABET Accredited | Full Scholarship",
     "status": "Available for hire"
   },
   "skills": {
@@ -47,7 +47,7 @@
     "items": {
       "market": {
         "title": "AI Integrated Market Price Comparison",
-        "description": "Led the AI & Backend development of a Cyprus grocery price comparison platform — web scraping aggregates real-time prices from multiple supermarkets, while a RAG-powered AI assistant and smart basket optimizer help users find the best deals.",
+        "description": "Led the AI and Backend development of a Cyprus grocery price comparison platform. Web scraping pulls real-time prices from multiple supermarkets, and a RAG-powered AI assistant plus smart basket optimizer help users find the cheapest option.",
         "long_description": "Faculty 1st place graduation project at Eastern Mediterranean University. As team lead for AI & Backend, I architected the .NET 8 REST API, implemented fuzzy product matching using Levenshtein Distance, built the smart basket optimization algorithm to find the cheapest market combination for a given shopping list, and integrated the RAG-based AI chat pipeline for natural language price queries. The system was designed with Agile sprints across 8 work packages, tested with Selenium, JMeter and Postman, and follows OWASP Top 10 security standards.",
         "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "AI"]
       },
@@ -66,7 +66,7 @@
       "wala": {
         "title": "WALA — WhatsApp Like Application",
         "description": "A secure real-time messaging application built with WebSockets as part of a security engineering course. Features encrypted client-server communication.",
-        "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server — similar to WhatsApp's architecture.",
+        "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server, similar to WhatsApp's architecture.",
         "tech": ["Python", "WebSocket", "Security", "Client-Server"]
       }
     }
@@ -79,24 +79,24 @@
         "role": "Software Engineering Graduate — Team Lead, AI & Backend",
         "company": "Eastern Mediterranean University · ABET Accredited · Best Project Award 🏆",
         "period": "January 2026",
-        "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform — featuring RAG architecture, fuzzy search, and smart basket optimization. EMU holds QS World Ranking recognition in the Middle East & Central Asia region."
+        "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform that used RAG architecture, fuzzy search, and smart basket optimization. EMU holds QS World Ranking recognition in the Middle East and Central Asia region."
       },
       "bursa": {
         "role": "Software Engineering Intern",
         "company": "Bursa Çimento",
-        "period": "2024",
+        "period": "Aug – Sep 2024",
         "description": "Developed and deployed a real-time conveyor belt overflow detection system using YOLOv8 computer vision, reducing the risk of equipment damage on the production line."
       },
       "tofas": {
         "role": "Software Engineering Intern",
         "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
-        "period": "2024",
+        "period": "Jun – Aug 2024",
         "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAŞ."
       },
       "buhari": {
         "role": "Computer Maintenance & Repair Technician",
         "company": "Buhari Bilişim · Bursa",
-        "period": "Jul – Sep 2024",
+        "period": "Jul – Sep 2023",
         "description": "Worked part-time to stay productive and learn hands-on hardware skills. Diagnosed and resolved desktop and laptop hardware faults, managed component compatibility for custom PC builds, and performed clean OS installations on both Windows and Linux."
       },
       "emu_start": {
@@ -109,7 +109,7 @@
         "role": "English Preparatory Programme",
         "company": "Eastern Mediterranean University",
         "period": "Fall 2021",
-        "description": "Enrolled at B1 level and successfully completed the university's intensive English preparatory programme, qualifying directly for the Software Engineering department."
+        "description": "Started at B1 level and finished the university's English preparatory programme in a single semester, then moved straight into the Software Engineering degree."
       },
       "highschool": {
         "role": "Science Stream (Sayısal) Student",
