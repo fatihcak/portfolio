@@ -93,7 +93,8 @@
 
 @media (max-width: 600px) {
   .item {
-    grid-template-columns: 0 40px 1fr;
+    grid-template-columns: 30px 1fr;
+    gap: 0 1rem;
   }
 
   .left {
