@@ -20,8 +20,8 @@
     "section_label": "About Me",
     "heading": "A bit about me",
     "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University — an ABET-accredited, English-medium program on a full scholarship (January 2026). I specialise in backend development with .NET, but my real passion lies in building intelligent systems — where backend engineering meets AI and DevOps.",
-    "bio_2": "I led the AI & Backend development of our faculty's 1st-place graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at TOFAŞ.",
-    "bio_3": "I'm actively looking for opportunities where I can grow across the full backend-to-AI-to-DevOps spectrum. Let's build something great.",
+    "bio_2": "I led the AI & Backend development of our faculty's Best Project Award-winning graduation project: an AI-integrated market price comparison platform for Cyprus, powered by RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Prior to that, I completed two industry internships — deploying a real-time YOLOv8 computer vision system at Bursa Çimento, and building an inventory management system at TOFAŞ.",
+    "bio_3": "I'm eager to step into professional life and bring fresh energy to a team that loves building great things.",
     "location": "Bursa, Turkey",
     "education": "BSc Software Engineering — EMU · ABET Accredited · Full Scholarship",
     "status": "Available for hire"
@@ -43,7 +43,7 @@
     "view_live": "View Live",
     "view_details": "View Details",
     "featured": "Featured",
-    "award": "Faculty 1st Place 🏆",
+    "award": "Best Project Award 🏆",
     "items": {
       "market": {
         "title": "AI Integrated Market Price Comparison",
@@ -77,9 +77,9 @@
     "items": {
       "grad": {
         "role": "Software Engineering Graduate — Team Lead, AI & Backend",
-        "company": "Eastern Mediterranean University · ABET Accredited · Faculty 1st Place 🏆",
+        "company": "Eastern Mediterranean University · ABET Accredited · Best Project Award 🏆",
         "period": "January 2026",
-        "description": "Graduated with full scholarship from an English-medium, ABET-accredited program with the faculty's top-ranked graduation project: an AI-integrated market price comparison platform. Led a 4-person team as AI & Backend engineer, delivering a full-stack system with RAG architecture, fuzzy search, and smart basket optimization. EMU is ranked among the top universities in the Middle East & Central Asia (QS World Rankings)."
+        "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform — featuring RAG architecture, fuzzy search, and smart basket optimization. EMU holds QS World Ranking recognition in the Middle East & Central Asia region."
       },
       "bursa": {
         "role": "Software Engineering Intern",

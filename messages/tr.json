@@ -19,9 +19,9 @@
   "about": {
     "section_label": "Hakkımda",
     "heading": "Biraz kendimden",
-    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip, 41'den fazla ülkede tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
-    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak fakülte birinciliği kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmalrı ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
-    "bio_3": "Backend'den yapay zekaya, oradan DevOps'a uzanan tam spektrumda büyüyebileceğim fırsatlar arıyorum. Birlikte harika şeyler inşa edelim.",
+    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
     "location": "Bursa, Türkiye",
     "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu",
     "status": "İş arıyorum"
@@ -43,7 +43,7 @@
     "view_live": "Canlıya Git",
     "view_details": "Detaylar",
     "featured": "Öne Çıkan",
-    "award": "Fakülte Birincisi 🏆",
+    "award": "En İyi Proje Ödülü 🏆",
     "items": {
       "market": {
         "title": "YZ Entegre Market Fiyat Karşılaştırma",
@@ -77,9 +77,9 @@
     "items": {
       "grad": {
         "role": "Yazılım Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
-        "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · Fakülte Birincisi 🏆",
+        "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · En İyi Proje Ödülü 🏆",
         "period": "Ocak 2026",
-        "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan fakültenin en yüksek puanlı mezuniyet projesiyle mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir sistem teslim ettim. DAÜ, QS Dünya Sıralaması'na göre Orta Doğu ve Orta Asya'nın en iyi üniversiteleri arasında yer almaktadır."
+        "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak En İyi Proje Ödülü kazandık — RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir platform. DAÜ, QS Dünya Sıralaması'nda Orta Doğu ve Orta Asya bölgesinde tanınan üniversiteler arasında yer almaktadır."
       },
       "bursa": {
         "role": "Yazılım Mühendisliği Stajyeri",
