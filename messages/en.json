@@ -92,6 +92,30 @@
         "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
         "period": "2024",
         "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAŞ."
+      },
+      "buhari": {
+        "role": "Computer Maintenance & Repair Technician",
+        "company": "Buhari Bilişim · Bursa",
+        "period": "Jul – Sep 2024",
+        "description": "Worked part-time to stay productive and learn hands-on hardware skills. Diagnosed and resolved desktop and laptop hardware faults, managed component compatibility for custom PC builds, and performed clean OS installations on both Windows and Linux."
+      },
+      "emu_start": {
+        "role": "BSc Software Engineering",
+        "company": "Eastern Mediterranean University",
+        "period": "Spring 2022",
+        "description": "Began my Software Engineering degree on a full scholarship after completing the EMU English preparatory programme."
+      },
+      "emu_prep": {
+        "role": "English Preparatory Programme",
+        "company": "Eastern Mediterranean University",
+        "period": "Fall 2021",
+        "description": "Enrolled at B1 level and successfully completed the university's intensive English preparatory programme, qualifying directly for the Software Engineering department."
+      },
+      "highschool": {
+        "role": "Science Stream (Sayısal) Student",
+        "company": "Bursa Atatürk Anadolu Lisesi",
+        "period": "2015 – 2019",
+        "description": "Completed secondary education in the science stream."
       }
     }
   },

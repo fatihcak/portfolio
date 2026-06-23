@@ -92,6 +92,30 @@
         "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
         "period": "2024",
         "description": ".NET Core ve Entity Framework ile TOFAŞ'ta dahili yedek parça stok yönetim sistemi geliştirdim."
+      },
+      "buhari": {
+        "role": "Bilgisayar Teknik Servis Uzmanı",
+        "company": "Buhari Bilişim · Bursa",
+        "period": "Tem – Eyl 2024",
+        "description": "Yaz dönemini boş geçirmemek ve donanım konusunda pratik bilgi edinmek amacıyla çalıştım. Masaüstü ve dizüstü donanım arızalarını teşhis edip çözdüm; sistem uyumluluğu gözetilerek özel PC topladım; Windows ve Linux temiz kurulumları gerçekleştirdim."
+      },
+      "emu_start": {
+        "role": "Yazılım Mühendisliği Lisans",
+        "company": "Doğu Akdeniz Üniversitesi",
+        "period": "Bahar 2022",
+        "description": "Hazırlık programını başarıyla tamamlayıp tam burslu olarak Yazılım Mühendisliği bölümüne başladım."
+      },
+      "emu_prep": {
+        "role": "İngilizce Hazırlık Programı",
+        "company": "Doğu Akdeniz Üniversitesi",
+        "period": "Güz 2021",
+        "description": "B1 düzeyinde başladığım yoğun İngilizce hazırlık programını başarıyla tamamlayarak Yazılım Mühendisliği bölümüne geçiş için gerekli şartı sağladım."
+      },
+      "highschool": {
+        "role": "Sayısal Öğrenci",
+        "company": "Bursa Atatürk Anadolu Lisesi",
+        "period": "2015 – 2019",
+        "description": "Sayısal bölümünde orta öğretimi tamamladım."
       }
     }
   },

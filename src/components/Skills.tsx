@@ -9,8 +9,8 @@ const skills = {
     { name: "Entity Framework", level: 75 },
     { name: "Python", level: 80 },
     { name: "REST APIs", level: 85 },
-    { name: "WebSockets", level: 70 },
-    { name: "SQL / SQLite / MSSQL", level: 70 },
+    { name: "MSSQL / PostgreSQL", level: 70 },
+    { name: "MongoDB", level: 55 },
   ],
   ai_ml: [
     { name: "RAG Architecture", level: 75 },
@@ -29,8 +29,9 @@ const skills = {
     { name: "Git / GitHub", level: 80 },
     { name: "Docker", level: 55 },
     { name: "Linux", level: 60 },
-    { name: "Vercel", level: 65 },
-    { name: "Web Scraping", level: 75 },
+    { name: "Redis", level: 30 },
+    { name: "Kafka", level: 30 },
+    { name: "RabbitMQ", level: 30 },
   ],
 };
 
