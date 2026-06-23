@@ -20,7 +20,7 @@
     "section_label": "Hakkımda",
     "heading": "Biraz kendimden",
     "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
-    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento'da gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento Fabrikası'nda gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
     "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
     "location": "Bursa, Türkiye",
     "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu",
@@ -44,17 +44,28 @@
     "view_details": "Detaylar",
     "featured": "Öne Çıkan",
     "award": "En İyi Proje Ödülü 🏆",
+    "modal": {
+      "demo": "🎬 Demo",
+      "about": "📋 Proje Hakkında",
+      "highlights": "⚡ Öne Çıkanlar",
+      "screenshots": "🖥️ Ekran Görüntüleri",
+      "architecture": "📐 Mimari & Tasarım",
+      "tech_stack": "🛠️ Kullanılan Teknolojiler",
+      "watch_youtube": "YouTube'da İzle",
+      "github": "GitHub",
+      "live_demo": "Canlı Demo"
+    },
     "items": {
       "market": {
         "title": "YZ Entegre Market Fiyat Karşılaştırma",
-        "description": "Kıbrıs'taki marketlerin fiyatlarını karşılaştıran platformda yapay zeka ve backend geliştirme takım liderliği yaptım. Web scraping ile gerçek zamanlı fiyat verisi toplandı; RAG destekli yapay zeka asistanı ve akıllı sepet optimizasyonu kullanıcılara en ucuz alışverişi buluyor.",
-        "long_description": "Doğu Akdeniz Üniversitesi fakülte birincisi mezuniyet projesi. Yapay zeka ve backend takım lideri olarak .NET 8 REST API mimarisini tasarladım, Levenshtein Distance ile bulanık ürün eşleşmesi geliştirdim, alışveriş listesi için en ucuz market kombinasyonunu bulan akıllı sepet optimizasyon algoritmasını yazdım ve doğal dil fiyat sorgularına olanak tanıyan RAG tabanlı yapay zeka sohbet hattını entegre ettim. Sistem 8 iş paketinde Agile sprintler ile geliştirildi, Selenium, JMeter ve Postman ile test edildi ve OWASP Top 10 güvenlik standartlarına uygun tasarlandı.",
+        "description": "Ödüllü, yapay zeka destekli dinamik fiyat karşılaştırma sistemi. Clean Architecture ile .NET 8 Web API tasarlandı, doğal dil sorguları için RAG pipeline kullanılarak Gemini 2.5 Flash entegre edildi ve özel bir Akıllı Sepet Optimizasyon algoritması geliştirildi.",
+        "long_description": "Bu ödüllü platformun Takım Lideri ve Backend/Yapay Zeka Geliştiricisi olarak, yüksek ölçeklenebilirlik sağlamak için backend'i .NET 8, ASP.NET Core Web API ve Clean (Onion) Architecture ile tasarladım. Sistem, AWS RDS üzerinde SQL Server ve Entity Framework Core kullanıyor. Gerçek zamanlı alışveriş kararları sunabilmek için Google Gemini 2.5 Flash API'sini veritabanımızla buluşturan bir RAG Pipeline ve Yapay Zeka Niyet Analizi mekanizması mühendisliği yaptım. Ayrıca, en ucuz market kombinasyonlarını hesaplayan asenkron bir Akıllı Sepet Optimizasyon algoritması geliştirdim ve devasa veri setlerindeki yazım hatalarını yönetmek için Bulanık Eşleşme (Levenshtein Distance) motoru uyguladım.",
         "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "YZ"]
       },
       "conveyor": {
         "title": "YOLOv8 Konveyör Taşma Tespiti",
-        "description": "Bursa Çimento'da konveyör bantlarındaki malzeme taşmasını gerçek zamanlı tespit eden bilgisayarlı görü sistemi.",
-        "long_description": "Bursa Çimento stajımda geliştirip sahaya kurduğum bu sistem, kamera görüntüleri üzerinden YOLOv8 ile konveyör bantları anlık izliyor. Taşma veya anormallik tespit edildiğinde otomatik uyarılar tetiklenerek ekipman hasarı ve iş güvenliği riskleri önleniyor. Endüstriyel ölçekte bilgisayarlı görü deneyimimi bu projede edindim.",
+        "description": "Bursa Çimento Fabrikası'nda konveyör bantlarındaki malzeme taşmasını gerçek zamanlı tespit eden bilgisayarlı görü sistemi.",
+        "long_description": "Bursa Çimento Fabrikası stajımda geliştirip sahaya kurduğum bu sistem, kamera görüntüleri üzerinden YOLOv8 ile konveyör bantları anlık izliyor. Taşma veya anormallik tespit edildiğinde otomatik uyarılar tetiklenerek ekipman hasarı ve iş güvenliği riskleri önleniyor. Endüstriyel ölçekte bilgisayarlı görü deneyimimi bu projede edindim.",
         "tech": ["Python", "YOLOv8", "Bilgisayarlı Görü", "OpenCV"]
       },
       "tofas": {
@@ -83,7 +94,7 @@
       },
       "bursa": {
         "role": "Yazılım Mühendisliği Stajyeri",
-        "company": "Bursa Çimento",
+        "company": "Bursa Çimento Fabrikası",
         "period": "Ağu – Eyl 2024",
         "description": "YOLOv8 bilgisayarlı görü kullanarak gerçek zamanlı konveyör bandı taşma tespit sistemi geliştirip sahaya kurdum; üretim hattında ekipman hasarı riskini azalttım."
       },
