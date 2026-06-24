@@ -45,12 +45,12 @@
     "featured": "Featured",
     "award": "Best Project Award 🏆",
     "modal": {
-      "demo": "🎬 Demo",
-      "about": "📋 About the Project",
-      "highlights": "⚡ Key Highlights",
-      "screenshots": "🖥️ Screenshots",
-      "architecture": "📐 Architecture & Design",
-      "tech_stack": "🛠️ Tech Stack",
+      "demo": "Demo",
+      "about": "About the Project",
+      "highlights": "Key Highlights",
+      "screenshots": "Screenshots",
+      "architecture": "Architecture & Design",
+      "tech_stack": "Tech Stack",
       "watch_youtube": "Watch on YouTube",
       "github": "GitHub",
       "live_demo": "Live Demo"
@@ -60,25 +60,49 @@
         "title": "AI Integrated Market Price Comparison",
         "description": "An award-winning, AI-powered system architecture built for dynamic price comparison. Engineered a .NET 8 Web API with Clean Architecture, integrated with Gemini 2.5 Flash using a RAG pipeline for natural language search, and developed a custom Smart Basket Optimization algorithm.",
         "long_description": "As the Team Leader & Backend/AI Developer for this award-winning platform, I architected the backend using .NET 8, ASP.NET Core Web API, and Clean (Onion) Architecture to ensure high scalability. The system utilizes Entity Framework Core and SQL Server on AWS RDS. I engineered a RAG Pipeline and AI Intent Parsing mechanism bridging the Google Gemini 2.5 Flash API with our database for real-time shopping decisions. Additionally, I developed a custom asynchronous Smart Basket Optimization algorithm to calculate the cheapest market combinations, and implemented a Fuzzy Matching Engine (Levenshtein Distance) to handle typos across massive datasets.",
-        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "AI"]
+        "tech": [
+          ".NET 8",
+          "ASP.NET Core",
+          "React",
+          "TypeScript",
+          "MSSQL",
+          "RAG",
+          "Web Scraping",
+          "AI"
+        ]
       },
       "conveyor": {
         "title": "YOLOv8 Conveyor Overflow Detection",
         "description": "A real-time computer vision system deployed at Bursa Çimento Fabrikası to detect material overflow on conveyor belts, preventing equipment damage and safety hazards.",
         "long_description": "Developed during my internship at Bursa Çimento Fabrikası, this system uses YOLOv8 to monitor conveyor belts in real-time via camera feeds. When overflow or anomalies are detected, the system triggers automated alerts to prevent costly equipment damage and safety incidents. This was my first hands-on experience with industrial-scale computer vision deployment.",
-        "tech": ["Python", "YOLOv8", "Computer Vision", "OpenCV"]
+        "tech": [
+          "Python",
+          "YOLOv8",
+          "Computer Vision",
+          "OpenCV"
+        ]
       },
       "tofas": {
         "title": "TOFAŞ Spare Parts Inventory Control",
         "description": "An internal inventory management system built during my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
         "long_description": "During my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
-        "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
+        "tech": [
+          ".NET Core",
+          "Entity Framework",
+          "SQLite",
+          "C#"
+        ]
       },
       "wala": {
         "title": "WALA — WhatsApp Like Application",
         "description": "A secure real-time messaging application built with WebSockets as part of a security engineering course. Features encrypted client-server communication.",
         "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server, similar to WhatsApp's architecture.",
-        "tech": ["Python", "WebSocket", "Security", "Client-Server"]
+        "tech": [
+          "Python",
+          "WebSocket",
+          "Security",
+          "Client-Server"
+        ]
       }
     }
   },
@@ -95,13 +119,13 @@
       "bursa": {
         "role": "Software Engineering Intern",
         "company": "Bursa Çimento Fabrikası",
-        "period": "Aug – Sep 2024",
+        "period": "Aug – Sep 2025",
         "description": "Developed and deployed a real-time conveyor belt overflow detection system using YOLOv8 computer vision, reducing the risk of equipment damage on the production line."
       },
       "tofas": {
         "role": "Software Engineering Intern",
         "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
-        "period": "Jun – Aug 2024",
+        "period": "Jun – Aug 2025",
         "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAŞ."
       },
       "buhari": {
