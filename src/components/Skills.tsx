@@ -37,20 +37,11 @@ const skills = {
 
 type SkillCategoryKey = keyof typeof skills;
 
-function SkillBar({ name, level }: { name: string; level: number }) {
+function SkillItem({ name }: { name: string }) {
   return (
-    <div className={styles.skillItem}>
-      <div className={styles.skillHeader}>
-        <span className={styles.skillName}>{name}</span>
-        <span className={styles.skillLevel}>{level}%</span>
-      </div>
-      <div className={styles.barTrack}>
-        <div
-          className={styles.barFill}
-          style={{ width: `${level}%` }}
-        />
-      </div>
-    </div>
+    <li className={styles.skillItem}>
+      {name}
+    </li>
   );
 }
 
@@ -71,11 +62,11 @@ export default function Skills() {
               <h3 className={styles.categoryTitle}>
                 {t(`categories.${cat}`)}
               </h3>
-              <div className={styles.skillList}>
+              <ul className={styles.skillList}>
                 {skills[cat].map((skill) => (
-                  <SkillBar key={skill.name} {...skill} />
+                  <SkillItem key={skill.name} name={skill.name} />
                 ))}
-              </div>
+              </ul>
             </div>
           ))}
         </div>
