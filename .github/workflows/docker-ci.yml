@@ -1,0 +1,35 @@
+name: Docker Build CI
+
+# Pipeline'ın ne zaman çalışacağını belirliyoruz
+on:
+  push:
+    branches: [ "main", "test_branch" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    # GitHub'ın bize tahsis ettiği ücretsiz Linux sunucusunda (runner) çalışacak
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Adım: Github'daki kodumuzu bu geçici sunucuya indir (Checkout)
+      - name: 📥 Kodları Sunucuya Çek
+        uses: actions/checkout@v4
+
+      # 2. Adım: Daha hızlı ve gelişmiş imajlar oluşturmak için Buildx kur
+      - name: 🛠️ Docker Buildx Kurulumu
+        uses: docker/setup-buildx-action@v3
+
+      # 3. Adım: Docker imajımızı inşa et! 
+      # push: false dedik çünkü henüz Docker Hub'a yüklemiyoruz, sadece hata var mı diye test ediyoruz.
+      - name: 🐳 Docker İmajını İnşa Et (Test)
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: false
+          tags: portfolio-app:latest
+          # Aşağıdaki satırlar Docker'ın her seferinde sıfırdan npm install yapmaması için
+          # GitHub Actions önbelleğini (cache) kullanmasını sağlar. İnanılmaz hız kazandırır!
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
