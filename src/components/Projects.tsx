@@ -134,7 +134,12 @@ export default function Projects() {
 
                   <div className={styles.cardInner}>
                     <div className={styles.cardBody}>
-                      <h3 className={styles.title}>{t(`items.${key}.title`)}</h3>
+                      <h3 
+                        className={`${styles.title} ${hasDetails ? styles.clickableTitle : ""}`}
+                        onClick={() => hasDetails && openModal(key)}
+                      >
+                        {t(`items.${key}.title`)}
+                      </h3>
                       <p className={styles.description}>
                         {t(`items.${key}.description`)}
                       </p>

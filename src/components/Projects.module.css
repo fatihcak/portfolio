@@ -86,6 +86,15 @@
   letter-spacing: -0.02em;
 }
 
+.clickableTitle {
+  cursor: pointer;
+  transition: color var(--transition);
+}
+
+.clickableTitle:hover {
+  color: var(--accent);
+}
+
 .featured .title {
   font-size: 1.3rem;
   padding-right: 0;
