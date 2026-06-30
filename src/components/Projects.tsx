@@ -18,7 +18,7 @@ const projectMeta: Record<
     featured?: boolean;
     award?: boolean;
     youtube?: string;
-    highlights?: string[];
+
     screenshots?: { src: string; alt: string }[];
     diagrams?: { src: string; alt: string }[];
   }
@@ -28,15 +28,6 @@ const projectMeta: Record<
     featured: true,
     award: true,
     youtube: "https://www.youtube.com/watch?v=baMASW4e2c4",
-    highlights: [
-      "🏆 Best Project Award — Faculty of Computing & Technology, EMU",
-      "🤖 RAG-based AI assistant answers natural language price queries in real time",
-      "🛒 Smart Basket Optimizer finds the cheapest market combination for a given shopping list",
-      "🔍 Fuzzy product matching via Levenshtein Distance handles typos and spelling variants",
-      "🌐 Web scraping aggregates live prices from multiple Cyprus supermarkets",
-      "✅ Selenium, JMeter & Postman tested — follows OWASP Top 10 security standards",
-      "📐 Built with .NET 8 REST API + React frontend, designed with Agile across 8 work packages",
-    ],
     screenshots: [
       { src: "/images/market/ui-homepage.webp", alt: "Homepage — product search & categories" },
       { src: "/images/market/ui-basket.webp",   alt: "Basket Comparison — cheapest market for your list" },
@@ -92,15 +83,16 @@ export default function Projects() {
 
   const openModal = (key: ProjectKey) => {
     const meta = projectMeta[key];
+    const highlightsRaw = t.has(`items.${key}.highlights`) ? t.raw(`items.${key}.highlights`) as string[] : undefined;
     const hasDetails =
-      meta.highlights || meta.screenshots || meta.diagrams || meta.youtube;
+      highlightsRaw || meta.screenshots || meta.diagrams || meta.youtube;
     if (!hasDetails) return;
 
     setActiveModal({
       title: t(`items.${key}.title`),
       description: t(`items.${key}.description`),
       longDescription: t(`items.${key}.long_description`),
-      highlights: meta.highlights,
+      highlights: highlightsRaw,
       tech: t.raw(`items.${key}.tech`) as string[],
       github: meta.github,
       live: meta.live,
@@ -121,8 +113,9 @@ export default function Projects() {
             {projectKeys.map((key) => {
               const meta = projectMeta[key];
               const techRaw = t.raw(`items.${key}.tech`) as string[];
+              const highlightsRaw = t.has(`items.${key}.highlights`) ? t.raw(`items.${key}.highlights`) as string[] : undefined;
               const hasDetails =
-                meta.highlights || meta.screenshots || meta.diagrams || meta.youtube;
+                highlightsRaw || meta.screenshots || meta.diagrams || meta.youtube;
 
               return (
                 <article
