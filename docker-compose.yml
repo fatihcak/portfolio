@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # Servisimizin (uygulamamızın) adı
+  portfolio-web:
+    build:
+      context: .
+      # Geliştirme (dev) ortamı için özel bir Dockerfile (opsiyonel) veya 
+      # direkt ana imajı hedef alabiliriz. Biz şimdilik prod imajını kullanıyoruz.
+    container_name: portfolio-dev-container
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    # Eğer gerçek bir kurumsal proje olsaydı, buraya bir de veritabanı eklerdik:
+    # depends_on:
+    #   - database
+
+  # database:
+  #   image: postgres:15-alpine
+  #   ports:
+  #     - "5432:5432"
