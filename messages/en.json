@@ -60,6 +60,15 @@
         "title": "AI Integrated Market Price Comparison",
         "description": "An award-winning, AI-powered system architecture built for dynamic price comparison. Engineered a .NET 8 Web API with Clean Architecture, integrated with Gemini 2.5 Flash using a RAG pipeline for natural language search, and developed a custom Smart Basket Optimization algorithm.",
         "long_description": "As the Team Leader & Backend/AI Developer for this award-winning platform, I architected the backend using .NET 8, ASP.NET Core Web API, and Clean (Onion) Architecture to ensure high scalability. The system utilizes Entity Framework Core and SQL Server on AWS RDS. I engineered a RAG Pipeline and AI Intent Parsing mechanism bridging the Google Gemini 2.5 Flash API with our database for real-time shopping decisions. Additionally, I developed a custom asynchronous Smart Basket Optimization algorithm to calculate the cheapest market combinations, and implemented a Fuzzy Matching Engine (Levenshtein Distance) to handle typos across massive datasets.",
+        "highlights": [
+          "🏆 Best Project Award — Faculty of Computer Engineering, EMU",
+          "🤖 RAG-based AI assistant answers natural language price queries in real time",
+          "🛒 Smart Basket Optimizer finds the cheapest market combination for a given shopping list",
+          "🔍 Fuzzy product matching via Levenshtein Distance handles typos and spelling variants",
+          "🌐 Web scraping aggregates live prices from multiple Cyprus supermarkets",
+          "✅ Selenium, JMeter & Postman tested — follows OWASP Top 10 security standards",
+          "📐 Built with .NET 8 REST API + React frontend, designed with Agile across 8 work packages"
+        ],
         "tech": [
           ".NET 8",
           "ASP.NET Core",
