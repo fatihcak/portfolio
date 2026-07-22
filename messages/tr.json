@@ -13,8 +13,7 @@
     "title": "Backend Mühendisi & Yapay Zeka Geliştirici",
     "subtitle": "Backend, yapay zeka ve DevOps'un kesişiminde ölçeklenebilir sistemler inşa ediyorum.",
     "cta_projects": "Projeleri Gör",
-    "cta_contact": "İletişime Geç",
-    "available": "İş fırsatlarına açığım"
+    "cta_contact": "İletişime Geç"
   },
   "about": {
     "section_label": "Hakkımda",
@@ -23,8 +22,7 @@
     "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento Fabrikası'nda gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
     "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
     "location": "Bursa, Türkiye",
-    "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu",
-    "status": "İş arıyorum"
+    "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu"
   },
   "skills": {
     "section_label": "Yetenekler",

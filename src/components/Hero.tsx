@@ -15,10 +15,7 @@ export default function Hero() {
       <div className={styles.orb2} aria-hidden />
 
       <div className={`container ${styles.content}`}>
-        <div className={styles.badge}>
-          <span className={styles.pulse} aria-hidden />
-          {t("available")}
-        </div>
+
 
         <h1 className={styles.heading}>
           <span className={styles.greeting}>{t("greeting")}</span>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { MapPin, GraduationCap, Briefcase } from "lucide-react";
+import { MapPin, GraduationCap } from "lucide-react";
 import styles from "./About.module.css";
 
 export default function About() {
@@ -30,11 +30,7 @@ export default function About() {
                 <GraduationCap size={16} className={styles.icon} />
                 <span>{t("education")}</span>
               </div>
-              <div className={styles.divider} />
-              <div className={styles.infoItem}>
-                <Briefcase size={16} className={styles.icon} />
-                <span className={styles.available}>{t("status")}</span>
-              </div>
+
             </div>
           </div>
         </div>

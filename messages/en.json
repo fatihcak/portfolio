@@ -13,8 +13,7 @@
     "title": "Backend Engineer & AI Developer",
     "subtitle": "Building scalable systems at the intersection of backend, AI & DevOps.",
     "cta_projects": "View Projects",
-    "cta_contact": "Get in Touch",
-    "available": "Open to opportunities"
+    "cta_contact": "Get in Touch"
   },
   "about": {
     "section_label": "About Me",
@@ -23,8 +22,7 @@
     "bio_2": "I led the AI and Backend side of our graduation project, which won the faculty's Best Project Award. It was a Cyprus grocery price comparison platform built with RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Before that I did two internships: a real-time YOLOv8 computer vision system at Bursa Çimento Fabrikası, and an inventory management system at TOFAŞ.",
     "bio_3": "I'm eager to step into professional life and bring fresh energy to a team that loves building great things.",
     "location": "Bursa, Turkey",
-    "education": "BSc Software Engineering, EMU | ABET Accredited | Full Scholarship",
-    "status": "Available for hire"
+    "education": "BSc Software Engineering, EMU | ABET Accredited | Full Scholarship"
   },
   "skills": {
     "section_label": "Skills",
