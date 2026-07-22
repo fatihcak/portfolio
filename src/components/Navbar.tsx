@@ -101,7 +101,7 @@ export default function Navbar() {
 
         {/* Resume CTA */}
         <a
-          href="/Fatih_Cakir_CV.pdf"
+          href={locale === "en" ? "/Fatih_Cakir_EN.docx" : "/Fatih_Cakir_TR.pdf"}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.resumeBtn}
