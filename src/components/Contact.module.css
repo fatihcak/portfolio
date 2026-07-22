@@ -77,3 +77,37 @@
   color: var(--text-primary);
   font-family: var(--font-display);
 }
+
+.copyBtn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+  opacity: 0;
+}
+
+.contactLink:hover .copyBtn {
+  opacity: 1;
+}
+
+.copyBtn:hover {
+  background: rgba(249, 115, 22, 0.08);
+  border-color: rgba(249, 115, 22, 0.2);
+  color: var(--accent);
+}
+
+.copyBtn.copied {
+  color: #10b981; /* Emerald green */
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.3);
+  opacity: 1;
+}
+
