@@ -18,7 +18,7 @@
   "about": {
     "section_label": "About Me",
     "heading": "A bit about me",
-    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University, where I studied on a full scholarship through an ABET-accredited, English-medium program (January 2026). My main focus is backend development with .NET, though I genuinely enjoy working at the point where backend meets AI and DevOps.",
+    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University, where I studied on a full scholarship through an ABET-accredited, English-medium program (February 2026). My main focus is backend development with .NET, though I genuinely enjoy working at the point where backend meets AI and DevOps.",
     "bio_2": "I led the AI and Backend side of our graduation project, which won the faculty's Best Project Award. It was a Cyprus grocery price comparison platform built with RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Before that I did two internships: a real-time YOLOv8 computer vision system at Bursa Çimento Fabrikası, and an inventory management system at TOFAŞ.",
     "bio_3": "I'm eager to step into professional life and bring fresh energy to a team that loves building great things.",
     "location": "Bursa, Turkey",
@@ -120,7 +120,7 @@
       "grad": {
         "role": "Software Engineering Graduate — Team Lead, AI & Backend",
         "company": "Eastern Mediterranean University · ABET Accredited · Best Project Award 🏆",
-        "period": "January 2026",
+        "period": "February 2026",
         "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform that used RAG architecture, fuzzy search, and smart basket optimization. EMU holds QS World Ranking recognition in the Middle East and Central Asia region."
       },
       "bursa": {
@@ -138,7 +138,7 @@
       "buhari": {
         "role": "Computer Maintenance & Repair Technician",
         "company": "Buhari Bilişim · Bursa",
-        "period": "Jul – Sep 2023",
+        "period": "Jul – Sep 2024",
         "description": "Worked part-time to stay productive and learn hands-on hardware skills. Diagnosed and resolved desktop and laptop hardware faults, managed component compatibility for custom PC builds, and performed clean OS installations on both Windows and Linux."
       },
       "emu_start": {
