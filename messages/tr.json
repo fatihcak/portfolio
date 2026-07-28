@@ -18,7 +18,7 @@
   "about": {
     "section_label": "Hakkımda",
     "heading": "Biraz kendimden",
-    "bio_1": "Ocak 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_1": "Şubat 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
     "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento Fabrikası'nda gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
     "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
     "location": "Bursa, Türkiye",
@@ -96,7 +96,7 @@
       "grad": {
         "role": "Yazılım Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
         "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · En İyi Proje Ödülü 🏆",
-        "period": "Ocak 2026",
+        "period": "Şubat 2026",
         "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak En İyi Proje Ödülü kazandık — RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir platform. DAÜ, QS Dünya Sıralaması'nda Orta Doğu ve Orta Asya bölgesinde tanınan üniversiteler arasında yer almaktadır."
       },
       "bursa": {
