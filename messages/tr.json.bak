@@ -1,0 +1,153 @@
+﻿{
+  "nav": {
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "contact": "İletişim",
+    "resume": "CV"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Fatih Çakır",
+    "title": "Backend Mühendisi & Yapay Zeka Geliştirici",
+    "subtitle": "Backend, yapay zeka ve DevOps'un kesişiminde ölçeklenebilir sistemler inşa ediyorum.",
+    "cta_projects": "Projeleri Gör",
+    "cta_contact": "İletişime Geç"
+  },
+  "about": {
+    "section_label": "Hakkımda",
+    "heading": "Biraz kendimden",
+    "bio_1": "Şubat 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
+    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento Fabrikası'nda gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
+    "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
+    "location": "Bursa, Türkiye",
+    "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu"
+  },
+  "skills": {
+    "section_label": "Yetenekler",
+    "heading": "Kullandığım teknolojiler",
+    "categories": {
+      "backend": "Backend",
+      "ai_ml": "YZ & Makine Öğrenmesi",
+      "frontend": "Frontend",
+      "tools": "Araçlar & DevOps"
+    }
+  },
+  "projects": {
+    "section_label": "Projeler",
+    "heading": "Geliştirdiklerim",
+    "view_code": "Kodu Gör",
+    "view_live": "Canlıya Git",
+    "view_details": "Detaylar",
+    "featured": "Öne Çıkan",
+    "award": "En İyi Proje Ödülü 🏆",
+    "modal": {
+      "demo": "🎬 Demo",
+      "about": "📋 Proje Hakkında",
+      "highlights": "⚡ Öne Çıkanlar",
+      "screenshots": "🖥️ Ekran Görüntüleri",
+      "architecture": "📐 Mimari & Tasarım",
+      "tech_stack": "🛠️ Kullanılan Teknolojiler",
+      "watch_youtube": "YouTube'da İzle",
+      "github": "GitHub",
+      "live_demo": "Canlı Demo"
+    },
+    "items": {
+      "market": {
+        "title": "YZ Entegre Market Fiyat Karşılaştırma",
+        "description": "Ödüllü, yapay zeka destekli dinamik fiyat karşılaştırma sistemi. Clean Architecture ile .NET 8 Web API tasarlandı, doğal dil sorguları için RAG pipeline kullanılarak Gemini 2.5 Flash entegre edildi ve özel bir Akıllı Sepet Optimizasyon algoritması geliştirildi.",
+        "long_description": "Bu ödüllü platformun Takım Lideri ve Backend/Yapay Zeka Geliştiricisi olarak, yüksek ölçeklenebilirlik sağlamak için backend'i .NET 8, ASP.NET Core Web API ve Clean (Onion) Architecture ile tasarladım. Sistem, AWS RDS üzerinde SQL Server ve Entity Framework Core kullanıyor. Gerçek zamanlı alışveriş kararları sunabilmek için Google Gemini 2.5 Flash API'sini veritabanımızla buluşturan bir RAG Pipeline ve Yapay Zeka Niyet Analizi mekanizması mühendisliği yaptım. Ayrıca, en ucuz market kombinasyonlarını hesaplayan asenkron bir Akıllı Sepet Optimizasyon algoritması geliştirdim ve devasa veri setlerindeki yazım hatalarını yönetmek için Bulanık Eşleşme (Levenshtein Distance) motoru uyguladım.",
+        "highlights": [
+          "🏆 En İyi Proje Ödülü — DAÜ, Bilgisayar Mühendisliği Fakültesi",
+          "🤖 RAG tabanlı YZ asistanı, fiyat sorgularını doğal dil işleyerek gerçek zamanlı yanıtlar",
+          "🛒 Akıllı Sepet Optimizasyonu (Smart Basket Optimizer), verilen bir alışveriş listesi için en ucuz market kombinasyonunu bulur",
+          "🔍 Levenshtein Mesafesi ile bulanık (fuzzy) ürün eşleştirme algoritması, yazım hatalarını başarıyla yönetir",
+          "🌐 Web scraping (veri kazıma) ile Kıbrıs'taki birden fazla süpermarketin canlı fiyatları toplanır",
+          "✅ Selenium, JMeter ve Postman ile test edildi — OWASP Top 10 güvenlik standartlarına tam uyumlu",
+          "📐 .NET 8 REST API ve React frontend ile Agile (Çevik) metodolojisi kullanılarak 8 iş paketi halinde geliştirildi"
+        ],
+        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "YZ"]
+      },
+      "conveyor": {
+        "title": "YOLOv8 Konveyör Taşma Tespiti",
+        "description": "Bursa Çimento Fabrikası'nda konveyör bantlarındaki malzeme taşmasını gerçek zamanlı tespit eden bilgisayarlı görü sistemi.",
+        "long_description": "Bursa Çimento Fabrikası stajımda geliştirip sahaya kurduğum bu sistem, kamera görüntüleri üzerinden YOLOv8 ile konveyör bantları anlık izliyor. Taşma veya anormallik tespit edildiğinde otomatik uyarılar tetiklenerek ekipman hasarı ve iş güvenliği riskleri önleniyor. Endüstriyel ölçekte bilgisayarlı görü deneyimimi bu projede edindim.",
+        "tech": ["Python", "YOLOv8", "Bilgisayarlı Görü", "OpenCV"]
+      },
+      "tofas": {
+        "title": "TOFAŞ Yedek Parça Stok Kontrol",
+        "description": "Türkiye'nin en büyük otomotiv üreticilerinden TOFAŞ Türk Otomobil Fabrikası A.Ş.'de stajım sırasında geliştirdiğim dahili yedek parça stok yönetim sistemi.",
+        "long_description": "TOFAŞ Türk Otomobil Fabrikası A.Ş. stajımda üretim hattına ait yedek parçaları yöneten dahili bir web uygulaması geliştirdim. Sistem tam CRUD operasyonları, stok seviyesi takibi, düşük stok uyarıları ve raporlama panelleri içeriyor. .NET Core ve Entity Framework Core ile geliştirildi; SQLite ile otomatik veritabanı migrasyonları uygulandı.",
+        "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
+      },
+      "wala": {
+        "title": "WALA — WhatsApp Benzeri Uygulama",
+        "description": "Güvenlik dersi kapsamında WebSocket kullanılarak geliştirilen güvenli gerçek zamanlı mesajlaşma uygulaması.",
+        "long_description": "Güvenlik mühendisliği dersi projesi olan WALA, güvenli WebSocket iletişim kalıplarını gösteren tam yığın bir mesajlaşma uygulamasıdır. Proje; güvenlik protokolleri, mesaj bütünlüğü, kimlik doğrulama ve merkezi sunucu üzerinden çok istemcili çift yönlü iletişime odaklanır — WhatsApp mimarisine benzer bir yapı.",
+        "tech": ["Python", "WebSocket", "Güvenlik", "İstemci-Sunucu"]
+      }
+    }
+  },
+  "experience": {
+    "section_label": "Deneyim",
+    "heading": "Yolculuğum",
+    "items": {
+      "grad": {
+        "role": "Yazılım Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
+        "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · En İyi Proje Ödülü 🏆",
+        "period": "Şubat 2026",
+        "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak En İyi Proje Ödülü kazandık — RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir platform. DAÜ, QS Dünya Sıralaması'nda Orta Doğu ve Orta Asya bölgesinde tanınan üniversiteler arasında yer almaktadır."
+      },
+      "bursa": {
+        "role": "Yazılım Mühendisliği Stajyeri",
+        "company": "Bursa Çimento Fabrikası",
+        "period": "Ağu – Eyl 2025",
+        "description": "YOLOv8 bilgisayarlı görü kullanarak gerçek zamanlı konveyör bandı taşma tespit sistemi geliştirip sahaya kurdum; üretim hattında ekipman hasarı riskini azalttım."
+      },
+      "tofas": {
+        "role": "Yazılım Mühendisliği Stajyeri",
+        "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
+        "period": "Haz – Ağu 2025",
+        "description": ".NET Core ve Entity Framework ile TOFAŞ'ta dahili yedek parça stok yönetim sistemi geliştirdim."
+      },
+      "buhari": {
+        "role": "Bilgisayar Teknik Servis Uzmanı",
+        "company": "Buhari Bilişim · Bursa",
+        "period": "Tem – Eyl 2024",
+        "description": "Yaz dönemini boş geçirmemek ve donanım konusunda pratik bilgi edinmek amacıyla çalıştım. Masaüstü ve dizüstü donanım arızalarını teşhis edip çözdüm; sistem uyumluluğu gözetilerek özel PC topladım; Windows ve Linux temiz kurulumları gerçekleştirdim."
+      },
+      "emu_start": {
+        "role": "Yazılım Mühendisliği Lisans",
+        "company": "Doğu Akdeniz Üniversitesi",
+        "period": "Bahar 2022",
+        "description": "Hazırlık programını başarıyla tamamlayıp tam burslu olarak Yazılım Mühendisliği bölümüne başladım."
+      },
+      "emu_prep": {
+        "role": "İngilizce Hazırlık Programı",
+        "company": "Doğu Akdeniz Üniversitesi",
+        "period": "Güz 2021",
+        "description": "B1 düzeyinde başladığım yoğun İngilizce hazırlık programını tek sömestrde bitirip Yazılım Mühendisliği bölümüne geçiş için gerekli şartı sağladım."
+      },
+      "highschool": {
+        "role": "Sayısal Öğrenci",
+        "company": "Bursa Atatürk Anadolu Lisesi",
+        "period": "2015 – 2019",
+        "description": "Sayısal bölümünde orta öğretimi tamamladım."
+      }
+    }
+  },
+  "contact": {
+    "section_label": "İletişim",
+    "heading": "Birlikte çalışalım",
+    "subtitle": "Yeni fırsatlar için aktif olarak araştırma yapıyorum. Bir sorunuz varsa ya da sadece merhaba demek istiyorsanız gelen kutum her zaman açık.",
+    "email_label": "E-posta gönder",
+    "github_label": "GitHub'ıma bak",
+    "linkedin_label": "LinkedIn'de bağlanalım"
+  },
+  "footer": {
+    "built_with": "Next.js ile geliştirildi & Vercel'de yayınlandı",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
+

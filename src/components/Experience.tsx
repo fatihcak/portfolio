@@ -6,7 +6,7 @@ import styles from "./Experience.module.css";
 export default function Experience() {
   const t = useTranslations("experience");
 
-  const items = ["grad", "bursa", "tofas", "buhari", "emu_start", "emu_prep", "highschool"] as const;
+  const items = ["zylicon", "grad", "bursa", "tofas", "buhari", "emu_start", "emu_prep", "highschool"] as const;
 
   return (
     <section id="experience" className={`section ${styles.experience}`}>

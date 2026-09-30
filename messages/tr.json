@@ -1,152 +1,174 @@
 {
   "nav": {
-    "about": "Hakkımda",
+    "about": "Hakkimda",
     "skills": "Yetenekler",
     "projects": "Projeler",
     "experience": "Deneyim",
-    "contact": "İletişim",
+    "contact": "Iletisim",
     "resume": "CV"
   },
   "hero": {
     "greeting": "Merhaba, ben",
-    "name": "Fatih Çakır",
-    "title": "Backend Mühendisi & Yapay Zeka Geliştirici",
-    "subtitle": "Backend, yapay zeka ve DevOps'un kesişiminde ölçeklenebilir sistemler inşa ediyorum.",
-    "cta_projects": "Projeleri Gör",
-    "cta_contact": "İletişime Geç"
+    "name": "Fatih Cakir",
+    "title": "Full-Stack & Yapay Zeka Muhendisi",
+    "subtitle": "Modern web, bulut backend ve yapay zekanin kesisiminde uretim kalitesinde platformlar insiyorum.",
+    "cta_projects": "Projeleri Gor",
+    "cta_contact": "Iletisime Gec"
   },
   "about": {
-    "section_label": "Hakkımda",
+    "section_label": "Hakkimda",
     "heading": "Biraz kendimden",
-    "bio_1": "Şubat 2026'da Doğu Akdeniz Üniversitesi Yazılım Mühendisliği bölümünden tam burslu ve İngilizce eğitimle mezun oldum — ABET akreditasyonuna sahip uluslararası tanınan bir program. Backend geliştirme konusunda uzmanlaşmış olsam da asıl tutkum, backend mühendisliğinin yapay zeka ve DevOps ile buluştuğu akıllı sistemler inşa etmek.",
-    "bio_2": "Mezuniyet projemizde yapay zeka ve backend geliştirmede takım liderliği yaparak En İyi Proje Ödülü kazandık. Kıbrıs'taki marketlerin fiyatlarını karşılaştıran bu platformda RAG mimarisi, bulanık eşleşme algoritmaları ve akıllı sepet optimizasyonu geliştirdim. Öncesinde Bursa Çimento Fabrikası'nda gerçek zamanlı YOLOv8 bilgisayarlı görü sistemi kurdum, TOFAŞ'ta ise stok yönetim sistemi geliştirdim.",
-    "bio_3": "Bir an önce profesyonel hayata adım atmak ve enerjimi doğru ekiple buluşturmak istiyorum.",
-    "location": "Bursa, Türkiye",
-    "education": "Yazılım Mühendisliği Lisans — DAÜ · ABET Akrediteli · Tam Burslu"
+    "bio_1": "Dogu Akdeniz Universitesi Yazilim Muhendisligi bolumunden tam burslu olarak mezun oldum (ABET akrediteli, Subat 2026). Serbest tam-yigit muhendis olarak calisiyorum; su anda Zylicon adli bir B2B filo yonetimi ve telematik platformunu React, TypeScript, Vite, Tailwind CSS ve Supabase (PostgreSQL) bulut backend ile gelistiriyorum.",
+    "bio_2": "Mezuniyet projemizde YZ ve backend tarafini yonettim; RAG mimarisi, bulanik arama ve akilli sepet optimizasyonu iceren platform, fakultenin En Iyi Proje odulunu aldi. Bunun yani sira endustriyel bilgisayarli goru (YOLOv8) ve kurumsal stok yonetimi (.NET Core) alanlarinda staj deneyimlerim de var.",
+    "bio_3": "Urun karmasikligiyla muhendislik hassasiyetinin bulusdugu yerlerde calismayi seviyorum; cok kiracili RLS politikalarindan gercek zamanli telemetri pipeline'larina, temiz arayuz tasarimindan YZ entegrasyonuna kadar.",
+    "location": "Bursa, Turkiye",
+    "education": "BSc Yazilim Muhendisligi, DAU | ABET Akrediteli | Tam Burslu"
   },
   "skills": {
     "section_label": "Yetenekler",
-    "heading": "Kullandığım teknolojiler",
+    "heading": "Calistigim teknolojiler",
     "categories": {
       "backend": "Backend",
-      "ai_ml": "YZ & Makine Öğrenmesi",
+      "ai_ml": "YZ & ML",
       "frontend": "Frontend",
-      "tools": "Araçlar & DevOps"
+      "tools": "Araclar & DevOps"
     }
   },
   "projects": {
     "section_label": "Projeler",
-    "heading": "Geliştirdiklerim",
-    "view_code": "Kodu Gör",
-    "view_live": "Canlıya Git",
-    "view_details": "Detaylar",
-    "featured": "Öne Çıkan",
-    "award": "En İyi Proje Ödülü 🏆",
+    "heading": "Gelistirdiklerim",
+    "view_code": "Kodu Gor",
+    "view_live": "Canliya Bak",
+    "view_details": "Detaylari Gor",
+    "featured": "One Cikan",
+    "award": "En Iyi Proje Odulu",
     "modal": {
-      "demo": "🎬 Demo",
-      "about": "📋 Proje Hakkında",
-      "highlights": "⚡ Öne Çıkanlar",
-      "screenshots": "🖥️ Ekran Görüntüleri",
-      "architecture": "📐 Mimari & Tasarım",
-      "tech_stack": "🛠️ Kullanılan Teknolojiler",
-      "watch_youtube": "YouTube'da İzle",
+      "demo": "Demo",
+      "about": "Proje Hakkinda",
+      "highlights": "Temel Ozellikler",
+      "screenshots": "Ekran Goruntuleri",
+      "architecture": "Mimari & Tasarim",
+      "tech_stack": "Teknoloji Yigini",
+      "watch_youtube": "YouTube'da Izle",
       "github": "GitHub",
-      "live_demo": "Canlı Demo"
+      "live_demo": "Canli Demo"
     },
     "items": {
-      "market": {
-        "title": "YZ Entegre Market Fiyat Karşılaştırma",
-        "description": "Ödüllü, yapay zeka destekli dinamik fiyat karşılaştırma sistemi. Clean Architecture ile .NET 8 Web API tasarlandı, doğal dil sorguları için RAG pipeline kullanılarak Gemini 2.5 Flash entegre edildi ve özel bir Akıllı Sepet Optimizasyon algoritması geliştirildi.",
-        "long_description": "Bu ödüllü platformun Takım Lideri ve Backend/Yapay Zeka Geliştiricisi olarak, yüksek ölçeklenebilirlik sağlamak için backend'i .NET 8, ASP.NET Core Web API ve Clean (Onion) Architecture ile tasarladım. Sistem, AWS RDS üzerinde SQL Server ve Entity Framework Core kullanıyor. Gerçek zamanlı alışveriş kararları sunabilmek için Google Gemini 2.5 Flash API'sini veritabanımızla buluşturan bir RAG Pipeline ve Yapay Zeka Niyet Analizi mekanizması mühendisliği yaptım. Ayrıca, en ucuz market kombinasyonlarını hesaplayan asenkron bir Akıllı Sepet Optimizasyon algoritması geliştirdim ve devasa veri setlerindeki yazım hatalarını yönetmek için Bulanık Eşleşme (Levenshtein Distance) motoru uyguladım.",
+      "zylicon": {
+        "title": "Zylicon -- B2B Filo Yonetimi & Telematik",
+        "description": "Surucu guvenligi ve filo risk yonetimi icin gelistirilen uretim ortami B2B filo yonetimi ve telematik platformu. React, TypeScript, Vite ve ~95 sunucusuz Edge Function iceren Supabase bulut backend, gercek zamanli canli takip ve YZ destekli surucu analizleri ile sifirdan insa edildi.",
+        "long_description": "Zylicon, filo yoneticilerine ve suruculere web panosu ve Flutter mobil uygulama uzerinden hizmet veren cok kiracili bir B2B SaaS platformudur. Basli muhendis olarak sistemin tamamini -- sema tasarimindan arayuze kadar -- tasarlayip hayata gecirdim. Backend; cok kiracili veri izolasyonu icin kati Row Level Security (RLS), PL/pgSQL RPC fonksiyonlari, denetim kaydi tetikleyicileri ve seyahat yasam dongusu, 5Hz telemetri alimi, kural bazli skorlama isciileri, mobil API sozlesmeleri ve YZ destekli analizleri kapsayan ~95 Deno tabanli sunucusuz Edge Function icermektedir. Frontend'de gercek zamanli canli takip haritasi (MapLibre GL), surucu skorlama panosu, kural seti studyosu, filo ve arac yonetim akislari ve otomatik durum makinesiyle yonetilen izin mimarisi gelistirdim.",
         "highlights": [
-          "🏆 En İyi Proje Ödülü — DAÜ, Bilgisayar Mühendisliği Fakültesi",
-          "🤖 RAG tabanlı YZ asistanı, fiyat sorgularını doğal dil işleyerek gerçek zamanlı yanıtlar",
-          "🛒 Akıllı Sepet Optimizasyonu (Smart Basket Optimizer), verilen bir alışveriş listesi için en ucuz market kombinasyonunu bulur",
-          "🔍 Levenshtein Mesafesi ile bulanık (fuzzy) ürün eşleştirme algoritması, yazım hatalarını başarıyla yönetir",
-          "🌐 Web scraping (veri kazıma) ile Kıbrıs'taki birden fazla süpermarketin canlı fiyatları toplanır",
-          "✅ Selenium, JMeter ve Postman ile test edildi — OWASP Top 10 güvenlik standartlarına tam uyumlu",
-          "📐 .NET 8 REST API ve React frontend ile Agile (Çevik) metodolojisi kullanılarak 8 iş paketi halinde geliştirildi"
+          "Uretim ortami platform zylicon.app'te canli -- bas muhendis olarak tek basima gelistirildi ve surduruluyor",
+          "MapLibre GL ve Supabase Realtime WebSocket ile gercek zamanli arac takibi",
+          "Seyahat yasam dongusu, telemetri, skorlama ve mobil API'leri kapsayan ~95 Deno sunucusuz Edge Function",
+          "Cok kiracili Row Level Security (RLS), RPC fonksiyonlari ve denetim kaydina yonelik veritabani tetikleyicileri",
+          "Otomatik surucu skorlama motoru: 5Hz telemetri alimi, 15 saniyelik olay pencereleri, kural seti v2",
+          "Gemini ve GPT entegrasyonlari araciligiyla YZ destekli surucu analizleri ve filo risk analizi",
+          "Vitest (React bilesenler, hook'lar) ve pgTAP (PostgreSQL sema ve RLS) ile TDD yaklasimi",
+          "Mobil backend sozlesmeleri (Flutter): bootstrap, seyahat, arac ve skor API'leri"
         ],
-        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "YZ"]
+        "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Deno", "Edge Functions", "MapLibre GL", "Vitest", "YZ"]
+      },
+      "market": {
+        "title": "YZ Entegreli Market Fiyat Karsilastirma",
+        "description": "Dinamik fiyat karsilastirmasi icin gelistirilen odullu, YZ destekli sistem mimarisi. Clean Architecture ile .NET 8 Web API tasarlandi, dogal dil sorgulari icin RAG pipeline kullanilarak Gemini 2.5 Flash entegre edildi ve ozel bir Akilli Sepet Optimizasyon algoritmasi gelistirildi.",
+        "long_description": "Bu odullu platformun Takim Lideri ve Backend/YZ Gelistiricisi olarak, yuksek olceklenebilirlik saglamak icin backend'i .NET 8, ASP.NET Core Web API ve Clean (Onion) Architecture ile tasarladim. Sistem, AWS RDS uzerinde SQL Server ve Entity Framework Core kullaniyor. Gercek zamanli alisveris kararlari sunabilmek icin Google Gemini 2.5 Flash API'sini veri tabanimizla bulusturan bir RAG Pipeline ve YZ Niyet Analizi mekanizmasi muhendisligi yaptim. Ayrica, en ucuz market kombinasyonlarini hesaplayan asenkron bir Akilli Sepet Optimizasyon algoritmasi gelistirdim.",
+        "highlights": [
+          "En Iyi Proje Odulu -- DAU, Bilgisayar Muhendisligi Fakultesi",
+          "RAG tabanli YZ asistani, fiyat sorgularini dogal dil isleyerek gercek zamanli yanitlar",
+          "Akilli Sepet Optimizasyonu, verilen bir alisveris listesi icin en ucuz market kombinasyonunu bulur",
+          "Levenshtein Mesafesi ile bulanik urun eslestirme algoritmasi, yazim hatalarini basariyla yonetiyor",
+          "Web kazima ile Kibris'taki birden fazla supermarketin canli fiyatlari toplaniyor",
+          "Selenium, JMeter ve Postman ile test edildi -- OWASP Top 10 guvenlik standartlarina tam uyumlu",
+          ".NET 8 REST API ve React frontend ile Agile metodolojisi kullanilarak 8 is paketi halinde gelistirildi"
+        ],
+        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Kazima", "YZ"]
       },
       "conveyor": {
-        "title": "YOLOv8 Konveyör Taşma Tespiti",
-        "description": "Bursa Çimento Fabrikası'nda konveyör bantlarındaki malzeme taşmasını gerçek zamanlı tespit eden bilgisayarlı görü sistemi.",
-        "long_description": "Bursa Çimento Fabrikası stajımda geliştirip sahaya kurduğum bu sistem, kamera görüntüleri üzerinden YOLOv8 ile konveyör bantları anlık izliyor. Taşma veya anormallik tespit edildiğinde otomatik uyarılar tetiklenerek ekipman hasarı ve iş güvenliği riskleri önleniyor. Endüstriyel ölçekte bilgisayarlı görü deneyimimi bu projede edindim.",
-        "tech": ["Python", "YOLOv8", "Bilgisayarlı Görü", "OpenCV"]
+        "title": "YOLOv8 Konveyor Tasma Tespiti",
+        "description": "Bursa Cimento Fabrikasi'nda konveyor bantlarindaki malzeme tasmasini gercek zamanli tespit eden bilgisayarli goru sistemi.",
+        "long_description": "Bursa Cimento Fabrikasi stajimda gelistirip sahaya kurdigum bu sistem, kamera goruntuleri uzerinden YOLOv8 ile konveyor bantlarini anlik izliyor. Tasma veya anormallik tespit edildiginde otomatik uyarilar tetiklenerek ekipman hasari ve is guvenligi riskleri onleniyor.",
+        "tech": ["Python", "YOLOv8", "Bilgisayarli Goru", "OpenCV"]
       },
       "tofas": {
-        "title": "TOFAŞ Yedek Parça Stok Kontrol",
-        "description": "Türkiye'nin en büyük otomotiv üreticilerinden TOFAŞ Türk Otomobil Fabrikası A.Ş.'de stajım sırasında geliştirdiğim dahili yedek parça stok yönetim sistemi.",
-        "long_description": "TOFAŞ Türk Otomobil Fabrikası A.Ş. stajımda üretim hattına ait yedek parçaları yöneten dahili bir web uygulaması geliştirdim. Sistem tam CRUD operasyonları, stok seviyesi takibi, düşük stok uyarıları ve raporlama panelleri içeriyor. .NET Core ve Entity Framework Core ile geliştirildi; SQLite ile otomatik veritabanı migrasyonları uygulandı.",
+        "title": "TOFAS Yedek Parca Stok Kontrol",
+        "description": "Turkiye'nin en buyuk otomotiv ureticilerinden TOFAS Turk Otomobil Fabrikasi A.S.'de stajim sirasinda gelistirdigim dahili yedek parca stok yonetim sistemi.",
+        "long_description": "TOFAS stajimda uretim hattina ait yedek parcalari yoneten dahili bir web uygulamasi gelistirdim. Sistem tam CRUD operasyonlari, stok seviyesi takibi, dusuk stok uyarilari ve raporlama panelleri iceriyor.",
         "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
       },
       "wala": {
-        "title": "WALA — WhatsApp Benzeri Uygulama",
-        "description": "Güvenlik dersi kapsamında WebSocket kullanılarak geliştirilen güvenli gerçek zamanlı mesajlaşma uygulaması.",
-        "long_description": "Güvenlik mühendisliği dersi projesi olan WALA, güvenli WebSocket iletişim kalıplarını gösteren tam yığın bir mesajlaşma uygulamasıdır. Proje; güvenlik protokolleri, mesaj bütünlüğü, kimlik doğrulama ve merkezi sunucu üzerinden çok istemcili çift yönlü iletişime odaklanır — WhatsApp mimarisine benzer bir yapı.",
-        "tech": ["Python", "WebSocket", "Güvenlik", "İstemci-Sunucu"]
+        "title": "WALA -- WhatsApp Benzeri Uygulama",
+        "description": "Guvenlik dersi kapsaminda WebSocket kullanilarak gelistirilen guvenli gercek zamanli mesajlasma uygulamasi.",
+        "long_description": "Guvenlik muhendisligi dersi projesi olan WALA, guvenli WebSocket iletisim kaliplarini gosteren tam yigin bir mesajlasma uygulamasidir.",
+        "tech": ["Python", "WebSocket", "Guvenlik", "Istemci-Sunucu"]
       }
     }
   },
   "experience": {
     "section_label": "Deneyim",
-    "heading": "Yolculuğum",
+    "heading": "Yolculugum",
     "items": {
+      "zylicon": {
+        "role": "Serbest Full-Stack & YZ Muhendisi",
+        "company": "Zylicon -- B2B Filo Telematik Platformu",
+        "period": "Mar 2026 - Devam ediyor",
+        "description": "Uretim ortami B2B filo yonetimi ve telematik platformunu sifirdan tasarlayip gelistiriyorum. React + TypeScript + Vite frontend, ~95 Deno sunucusuz Edge Function iceren Supabase bulut backend, PostgreSQL RLS politikalari, gercek zamanli canli takip, YZ destekli surucu analizleri ve Flutter mobil API sozlesmesi uzerinde tam sahiplik."
+      },
       "grad": {
-        "role": "Yazılım Mühendisliği Mezunu — Takım Lideri, YZ & Backend",
-        "company": "Doğu Akdeniz Üniversitesi · ABET Akrediteli · En İyi Proje Ödülü 🏆",
-        "period": "Şubat 2026",
-        "description": "Tam burslu, İngilizce eğitim veren ABET akrediteli programdan mezun oldum. 4 kişilik ekipte yapay zeka ve backend geliştirme takım liderliği yaparak En İyi Proje Ödülü kazandık — RAG mimarisi, bulanık arama ve akıllı sepet optimizasyonunu içeren tam yığın bir platform. DAÜ, QS Dünya Sıralaması'nda Orta Doğu ve Orta Asya bölgesinde tanınan üniversiteler arasında yer almaktadır."
+        "role": "Yazilim Muhendisligi Mezunu -- Takim Lideri, YZ & Backend",
+        "company": "Dogu Akdeniz Universitesi -- ABET Akrediteli -- En Iyi Proje Odulu",
+        "period": "Subat 2026",
+        "description": "Tam burslu, Ingilizce egitim veren ABET akrediteli programdan mezun oldum. 4 kisilik ekipte YZ ve backend gelistirme takim liderligi yaparak En Iyi Proje odulu kazandik -- RAG mimarisi, bulanik arama ve akilli sepet optimizasyonunu iceren tam yigin bir platform."
       },
       "bursa": {
-        "role": "Yazılım Mühendisliği Stajyeri",
-        "company": "Bursa Çimento Fabrikası",
-        "period": "Ağu – Eyl 2025",
-        "description": "YOLOv8 bilgisayarlı görü kullanarak gerçek zamanlı konveyör bandı taşma tespit sistemi geliştirip sahaya kurdum; üretim hattında ekipman hasarı riskini azalttım."
+        "role": "Yazilim Muhendisligi Stajyeri",
+        "company": "Bursa Cimento Fabrikasi",
+        "period": "Agu - Eyl 2025",
+        "description": "YOLOv8 bilgisayarli goru kullanarak gercek zamanli konveyor bandi tasma tespit sistemi gelistirip sahaya kurdum; uretim hattinda ekipman hasari riskini azalttim."
       },
       "tofas": {
-        "role": "Yazılım Mühendisliği Stajyeri",
-        "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
-        "period": "Haz – Ağu 2025",
-        "description": ".NET Core ve Entity Framework ile TOFAŞ'ta dahili yedek parça stok yönetim sistemi geliştirdim."
+        "role": "Yazilim Muhendisligi Stajyeri",
+        "company": "TOFAS Turk Otomobil Fabrikasi A.S.",
+        "period": "Haz - Agu 2025",
+        "description": ".NET Core ve Entity Framework ile TOFAS'ta dahili yedek parca stok yonetim sistemi gelistirdim."
       },
       "buhari": {
-        "role": "Bilgisayar Teknik Servis Uzmanı",
-        "company": "Buhari Bilişim · Bursa",
-        "period": "Tem – Eyl 2024",
-        "description": "Yaz dönemini boş geçirmemek ve donanım konusunda pratik bilgi edinmek amacıyla çalıştım. Masaüstü ve dizüstü donanım arızalarını teşhis edip çözdüm; sistem uyumluluğu gözetilerek özel PC topladım; Windows ve Linux temiz kurulumları gerçekleştirdim."
+        "role": "Bilgisayar Teknik Servis Uzmani",
+        "company": "Buhari Bilisim -- Bursa",
+        "period": "Tem - Eyl 2024",
+        "description": "Masaustu ve dizustu donanim arizalarini tespit edip cozduk; ozel PC topladi; Windows ve Linux temiz kurulumlar gerceklestirdim."
       },
       "emu_start": {
-        "role": "Yazılım Mühendisliği Lisans",
-        "company": "Doğu Akdeniz Üniversitesi",
+        "role": "Yazilim Muhendisligi Lisans",
+        "company": "Dogu Akdeniz Universitesi",
         "period": "Bahar 2022",
-        "description": "Hazırlık programını başarıyla tamamlayıp tam burslu olarak Yazılım Mühendisliği bölümüne başladım."
+        "description": "Hazirlik programini basariyla tamamlayip tam burslu olarak Yazilim Muhendisligi bolumune basladim."
       },
       "emu_prep": {
-        "role": "İngilizce Hazırlık Programı",
-        "company": "Doğu Akdeniz Üniversitesi",
-        "period": "Güz 2021",
-        "description": "B1 düzeyinde başladığım yoğun İngilizce hazırlık programını tek sömestrde bitirip Yazılım Mühendisliği bölümüne geçiş için gerekli şartı sağladım."
+        "role": "Ingilizce Hazirlik Programi",
+        "company": "Dogu Akdeniz Universitesi",
+        "period": "Guz 2021",
+        "description": "B1 duzeyinde basladigim yogun Ingilizce hazirlik programini tek somsrde bitirip Yazilim Muhendisligi bolumune gecis icin gerekli sarti sagladim."
       },
       "highschool": {
-        "role": "Sayısal Öğrenci",
-        "company": "Bursa Atatürk Anadolu Lisesi",
-        "period": "2015 – 2019",
-        "description": "Sayısal bölümünde orta öğretimi tamamladım."
+        "role": "Sayisal Ogrenci",
+        "company": "Bursa Ataturk Anadolu Lisesi",
+        "period": "2015 - 2019",
+        "description": "Sayisal bolumunde orta ogretime tamamladim."
       }
     }
   },
   "contact": {
-    "section_label": "İletişim",
-    "heading": "Birlikte çalışalım",
-    "subtitle": "Yeni fırsatlar için aktif olarak araştırma yapıyorum. Bir sorunuz varsa ya da sadece merhaba demek istiyorsanız gelen kutum her zaman açık.",
-    "email_label": "E-posta gönder",
-    "github_label": "GitHub'ıma bak",
-    "linkedin_label": "LinkedIn'de bağlanalım"
+    "section_label": "Iletisim",
+    "heading": "Birlikte calisalim",
+    "subtitle": "Yeni firsatlar icin aktif olarak arastirma yapiyorum. Bir sorunuz varsa ya da sadece merhaba demek istiyorsaniz gelen kutum her zaman acik.",
+    "email_label": "E-posta gonder",
+    "github_label": "GitHub'ima bak",
+    "linkedin_label": "LinkedIn'de baslanalim"
   },
   "footer": {
-    "built_with": "Next.js ile geliştirildi & Vercel'de yayınlandı",
-    "rights": "Tüm hakları saklıdır."
+    "built_with": "Next.js ile gelistirildi & Vercel'de yayinlandi",
+    "rights": "Tum haklari saklidir."
   }
 }
