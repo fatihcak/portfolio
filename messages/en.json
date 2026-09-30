@@ -9,18 +9,18 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Fatih Çakır",
-    "title": "Backend Engineer & AI Developer",
-    "subtitle": "Building scalable systems at the intersection of backend, AI & DevOps.",
+    "name": "Fatih Cakir",
+    "title": "Full-Stack & AI Engineer",
+    "subtitle": "Building production-grade platforms at the intersection of modern web, cloud backend, and AI.",
     "cta_projects": "View Projects",
     "cta_contact": "Get in Touch"
   },
   "about": {
     "section_label": "About Me",
     "heading": "A bit about me",
-    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University, where I studied on a full scholarship through an ABET-accredited, English-medium program (February 2026). My main focus is backend development with .NET, though I genuinely enjoy working at the point where backend meets AI and DevOps.",
-    "bio_2": "I led the AI and Backend side of our graduation project, which won the faculty's Best Project Award. It was a Cyprus grocery price comparison platform built with RAG architecture, fuzzy search algorithms, and a smart basket optimizer. Before that I did two internships: a real-time YOLOv8 computer vision system at Bursa Çimento Fabrikası, and an inventory management system at TOFAŞ.",
-    "bio_3": "I'm eager to step into professional life and bring fresh energy to a team that loves building great things.",
+    "bio_1": "I'm a Software Engineering graduate from Eastern Mediterranean University (ABET-accredited, full scholarship, February 2026). I work as a freelance full-stack engineer, currently building Zylicon -- a B2B fleet management and telematics platform -- using React, TypeScript, Vite, Tailwind CSS, and a Supabase (PostgreSQL) cloud backend with Deno-based serverless Edge Functions.",
+    "bio_2": "I led the AI and Backend side of our graduation project, which won the faculty's Best Project Award. It was a Cyprus grocery price comparison platform built with RAG architecture, fuzzy search algorithms, and a smart basket optimizer. I've also done internships in industrial computer vision (YOLOv8) and enterprise inventory management (.NET Core).",
+    "bio_3": "I enjoy working where product complexity meets engineering precision -- from designing multi-tenant RLS policies and real-time telemetry pipelines to building clean, accessible UIs and AI-powered workflows.",
     "location": "Bursa, Turkey",
     "education": "BSc Software Engineering, EMU | ABET Accredited | Full Scholarship"
   },
@@ -41,7 +41,7 @@
     "view_live": "View Live",
     "view_details": "View Details",
     "featured": "Featured",
-    "award": "Best Project Award 🏆",
+    "award": "Best Project Award",
     "modal": {
       "demo": "Demo",
       "about": "About the Project",
@@ -54,62 +54,54 @@
       "live_demo": "Live Demo"
     },
     "items": {
+      "zylicon": {
+        "title": "Zylicon -- B2B Fleet Management & Telematics",
+        "description": "A production B2B fleet management and telematics platform for driver safety and fleet risk management. Built from the ground up with React, TypeScript, Vite, and a Supabase cloud backend featuring ~95 serverless Edge Functions, real-time live tracking, and AI-powered driver insights.",
+        "long_description": "Zylicon is a multi-tenant B2B SaaS platform serving fleet managers and drivers through a web dashboard and a Flutter mobile app. As the lead full-stack engineer, I designed and implemented the entire system from schema to UI. The backend runs on PostgreSQL with strict Row Level Security (RLS) for multi-tenant data isolation, PL/pgSQL RPC functions, database triggers for audit logging, and ~95 Deno-based serverless Edge Functions covering trip lifecycle, 5Hz telemetry ingestion, rule-based scoring workers, mobile API contracts, and AI-powered insights. On the frontend I built a real-time live tracking map (MapLibre GL), a driver scoring dashboard, a ruleset studio, fleet and vehicle management flows, and a permission architecture driven by an automated state-machine. The app supports full TR/EN localization and light/dark themes.",
+        "highlights": [
+          "Production platform live at zylicon.app -- built and maintained solo as lead engineer",
+          "Real-time vehicle tracking with MapLibre GL and Supabase Realtime WebSockets",
+          "~95 Deno serverless Edge Functions covering trip lifecycle, telemetry, scoring, and mobile APIs",
+          "Multi-tenant Row Level Security (RLS), RPC functions, and database triggers for audit logging",
+          "Automated driver scoring engine: 5Hz telemetry ingestion, 15-second event windows, ruleset v2",
+          "AI-powered driver insights and fleet risk analysis via Gemini and GPT integrations",
+          "TDD with Vitest (React components, hooks) and pgTAP (PostgreSQL schema and RLS)",
+          "Mobile backend contracts (Flutter): bootstrap, trip, vehicle, and score APIs"
+        ],
+        "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Deno", "Edge Functions", "MapLibre GL", "Vitest", "AI"]
+      },
       "market": {
         "title": "AI Integrated Market Price Comparison",
         "description": "An award-winning, AI-powered system architecture built for dynamic price comparison. Engineered a .NET 8 Web API with Clean Architecture, integrated with Gemini 2.5 Flash using a RAG pipeline for natural language search, and developed a custom Smart Basket Optimization algorithm.",
         "long_description": "As the Team Leader & Backend/AI Developer for this award-winning platform, I architected the backend using .NET 8, ASP.NET Core Web API, and Clean (Onion) Architecture to ensure high scalability. The system utilizes Entity Framework Core and SQL Server on AWS RDS. I engineered a RAG Pipeline and AI Intent Parsing mechanism bridging the Google Gemini 2.5 Flash API with our database for real-time shopping decisions. Additionally, I developed a custom asynchronous Smart Basket Optimization algorithm to calculate the cheapest market combinations, and implemented a Fuzzy Matching Engine (Levenshtein Distance) to handle typos across massive datasets.",
         "highlights": [
-          "🏆 Best Project Award — Faculty of Computer Engineering, EMU",
-          "🤖 RAG-based AI assistant answers natural language price queries in real time",
-          "🛒 Smart Basket Optimizer finds the cheapest market combination for a given shopping list",
-          "🔍 Fuzzy product matching via Levenshtein Distance handles typos and spelling variants",
-          "🌐 Web scraping aggregates live prices from multiple Cyprus supermarkets",
-          "✅ Selenium, JMeter & Postman tested — follows OWASP Top 10 security standards",
-          "📐 Built with .NET 8 REST API + React frontend, designed with Agile across 8 work packages"
+          "Best Project Award -- Faculty of Computer Engineering, EMU",
+          "RAG-based AI assistant answers natural language price queries in real time",
+          "Smart Basket Optimizer finds the cheapest market combination for a given shopping list",
+          "Fuzzy product matching via Levenshtein Distance handles typos and spelling variants",
+          "Web scraping aggregates live prices from multiple Cyprus supermarkets",
+          "Selenium, JMeter & Postman tested -- follows OWASP Top 10 security standards",
+          "Built with .NET 8 REST API + React frontend, designed with Agile across 8 work packages"
         ],
-        "tech": [
-          ".NET 8",
-          "ASP.NET Core",
-          "React",
-          "TypeScript",
-          "MSSQL",
-          "RAG",
-          "Web Scraping",
-          "AI"
-        ]
+        "tech": [".NET 8", "ASP.NET Core", "React", "TypeScript", "MSSQL", "RAG", "Web Scraping", "AI"]
       },
       "conveyor": {
         "title": "YOLOv8 Conveyor Overflow Detection",
-        "description": "A real-time computer vision system deployed at Bursa Çimento Fabrikası to detect material overflow on conveyor belts, preventing equipment damage and safety hazards.",
-        "long_description": "Developed during my internship at Bursa Çimento Fabrikası, this system uses YOLOv8 to monitor conveyor belts in real-time via camera feeds. When overflow or anomalies are detected, the system triggers automated alerts to prevent costly equipment damage and safety incidents. This was my first hands-on experience with industrial-scale computer vision deployment.",
-        "tech": [
-          "Python",
-          "YOLOv8",
-          "Computer Vision",
-          "OpenCV"
-        ]
+        "description": "A real-time computer vision system deployed at Bursa Cimento Fabrikasi to detect material overflow on conveyor belts, preventing equipment damage and safety hazards.",
+        "long_description": "Developed during my internship at Bursa Cimento Fabrikasi, this system uses YOLOv8 to monitor conveyor belts in real-time via camera feeds. When overflow or anomalies are detected, the system triggers automated alerts to prevent costly equipment damage and safety incidents.",
+        "tech": ["Python", "YOLOv8", "Computer Vision", "OpenCV"]
       },
       "tofas": {
-        "title": "TOFAŞ Spare Parts Inventory Control",
-        "description": "An internal inventory management system built during my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
-        "long_description": "During my internship at TOFAŞ Türk Otomobil Fabrikası A.Ş., I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
-        "tech": [
-          ".NET Core",
-          "Entity Framework",
-          "SQLite",
-          "C#"
-        ]
+        "title": "TOFAS Spare Parts Inventory Control",
+        "description": "An internal inventory management system built during my internship at TOFAS Turk Otomobil Fabrikasi A.S., one of Turkey's largest automotive manufacturers, for tracking spare parts stock.",
+        "long_description": "During my internship at TOFAS, I developed an internal web application for managing spare parts inventory across the production line. The system handles full CRUD operations, stock level tracking, low-stock alerts, and reporting dashboards. Built with .NET Core and Entity Framework Core, with automated database migrations via SQLite.",
+        "tech": [".NET Core", "Entity Framework", "SQLite", "C#"]
       },
       "wala": {
-        "title": "WALA — WhatsApp Like Application",
+        "title": "WALA -- WhatsApp Like Application",
         "description": "A secure real-time messaging application built with WebSockets as part of a security engineering course. Features encrypted client-server communication.",
-        "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server, similar to WhatsApp's architecture.",
-        "tech": [
-          "Python",
-          "WebSocket",
-          "Security",
-          "Client-Server"
-        ]
+        "long_description": "Built for a security engineering course, WALA is a full-stack messaging application demonstrating secure WebSocket communication patterns. The project focused on security protocols, message integrity, authentication, and real-time bidirectional communication between multiple clients through a central server.",
+        "tech": ["Python", "WebSocket", "Security", "Client-Server"]
       }
     }
   },
@@ -117,29 +109,35 @@
     "section_label": "Experience",
     "heading": "My journey",
     "items": {
+      "zylicon": {
+        "role": "Freelance Full-Stack & AI Engineer",
+        "company": "Zylicon -- B2B Fleet Telematics Platform",
+        "period": "Mar 2026 - Present",
+        "description": "Designing and building a production B2B fleet management and telematics platform from the ground up. Full ownership of the React + TypeScript + Vite frontend, a Supabase cloud backend with ~95 Deno serverless Edge Functions, PostgreSQL RLS policies, real-time live tracking, AI-powered driver insights, and a Flutter mobile API contract."
+      },
       "grad": {
-        "role": "Software Engineering Graduate — Team Lead, AI & Backend",
-        "company": "Eastern Mediterranean University · ABET Accredited · Best Project Award 🏆",
+        "role": "Software Engineering Graduate -- Team Lead, AI & Backend",
+        "company": "Eastern Mediterranean University -- ABET Accredited -- Best Project Award",
         "period": "February 2026",
-        "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform that used RAG architecture, fuzzy search, and smart basket optimization. EMU holds QS World Ranking recognition in the Middle East and Central Asia region."
+        "description": "Graduated with full scholarship from an English-medium, ABET-accredited Software Engineering program. Led a 4-person team to win the faculty's Best Project Award with an AI-integrated market price comparison platform that used RAG architecture, fuzzy search, and smart basket optimization."
       },
       "bursa": {
         "role": "Software Engineering Intern",
-        "company": "Bursa Çimento Fabrikası",
-        "period": "Aug – Sep 2025",
+        "company": "Bursa Cimento Fabrikasi",
+        "period": "Aug - Sep 2025",
         "description": "Developed and deployed a real-time conveyor belt overflow detection system using YOLOv8 computer vision, reducing the risk of equipment damage on the production line."
       },
       "tofas": {
         "role": "Software Engineering Intern",
-        "company": "TOFAŞ Türk Otomobil Fabrikası A.Ş.",
-        "period": "Jun – Aug 2025",
-        "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAŞ."
+        "company": "TOFAS Turk Otomobil Fabrikasi A.S.",
+        "period": "Jun - Aug 2025",
+        "description": "Built an internal spare parts inventory management system using .NET Core and Entity Framework at TOFAS."
       },
       "buhari": {
         "role": "Computer Maintenance & Repair Technician",
-        "company": "Buhari Bilişim · Bursa",
-        "period": "Jul – Sep 2024",
-        "description": "Worked part-time to stay productive and learn hands-on hardware skills. Diagnosed and resolved desktop and laptop hardware faults, managed component compatibility for custom PC builds, and performed clean OS installations on both Windows and Linux."
+        "company": "Buhari Bilisim -- Bursa",
+        "period": "Jul - Sep 2024",
+        "description": "Diagnosed and resolved desktop and laptop hardware faults, managed component compatibility for custom PC builds, and performed clean OS installations on both Windows and Linux."
       },
       "emu_start": {
         "role": "BSc Software Engineering",
@@ -154,9 +152,9 @@
         "description": "Started at B1 level and finished the university's English preparatory programme in a single semester, then moved straight into the Software Engineering degree."
       },
       "highschool": {
-        "role": "Science Stream (Sayısal) Student",
-        "company": "Bursa Atatürk Anadolu Lisesi",
-        "period": "2015 – 2019",
+        "role": "Science Stream (Sayisal) Student",
+        "company": "Bursa Ataturk Anadolu Lisesi",
+        "period": "2015 - 2019",
         "description": "Completed secondary education in the science stream."
       }
     }

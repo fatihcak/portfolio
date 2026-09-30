@@ -7,7 +7,7 @@ import { GithubIcon } from "./icons";
 import styles from "./Projects.module.css";
 import ProjectModal, { type ProjectModalData } from "./ProjectModal";
 
-const projectKeys = ["market", "conveyor", "tofas", "wala"] as const;
+const projectKeys = ["zylicon", "market", "conveyor", "tofas", "wala"] as const;
 type ProjectKey = (typeof projectKeys)[number];
 
 const projectMeta: Record<
@@ -18,33 +18,36 @@ const projectMeta: Record<
     featured?: boolean;
     award?: boolean;
     youtube?: string;
-
     screenshots?: { src: string; alt: string }[];
     diagrams?: { src: string; alt: string }[];
   }
 > = {
+  zylicon: {
+    live: "https://zylicon.app",
+    featured: true,
+  },
   market: {
     github: "https://github.com/fatihcak",
     featured: true,
     award: true,
     youtube: "https://www.youtube.com/watch?v=baMASW4e2c4",
     screenshots: [
-      { src: "/images/market/ui-homepage.webp", alt: "Homepage — product search & categories" },
-      { src: "/images/market/ui-basket.webp",   alt: "Basket Comparison — cheapest market for your list" },
-      { src: "/images/market/ui-chatbot.webp",  alt: "AI Market Assistant — RAG-powered chatbot" },
+      { src: "/images/market/ui-homepage.webp", alt: "Homepage -- product search & categories" },
+      { src: "/images/market/ui-basket.webp",   alt: "Basket Comparison -- cheapest market for your list" },
+      { src: "/images/market/ui-chatbot.webp",  alt: "AI Market Assistant -- RAG-powered chatbot" },
     ],
     diagrams: [
       { src: "/images/market/high-level-design.png", alt: "High Level Architecture Diagram" },
     ],
   },
   conveyor: {
-    github: "https://github.com/fatihcak",
+    // no public repo
   },
   tofas: {
-    github: "https://github.com/fatihcak",
+    github: "https://github.com/fatihcak/Industrial-Data-API-PoC",
   },
   wala: {
-    github: "https://github.com/fatihcak",
+    // no public repo
   },
 };
 
@@ -134,7 +137,7 @@ export default function Projects() {
 
                   <div className={styles.cardInner}>
                     <div className={styles.cardBody}>
-                      <h3 
+                      <h3
                         className={`${styles.title} ${hasDetails ? styles.clickableTitle : ""}`}
                         onClick={() => hasDetails && openModal(key)}
                       >
